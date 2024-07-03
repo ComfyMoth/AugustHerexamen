@@ -1,5 +1,7 @@
 - <span style="color:#c8ab83;">Bandbreedte</span>: Verschil tussen hoogste en laagste frequentie die door een kanaal kan getransporteerd worden
 - <span style="color:#c8ab83;">Circuit switching</span>: Een type communicatie waarbij een verbinding tussen de eindpunten gereserveerd wordt
 	- vb: zoals in het klassieke telefoonnetwerk
-- <span style="color:#c8ab83;">Computernetwerk</span>: Een verzameling van toestellen die met elkaar kunnen comuniceren
-- <span style="color:#c8ab83;">Doorvoer (throughput)</span>: 
+- <span style="color:#c8ab83;">Computernetwerk</span>: Een verzameling van toestellen die met elkaar kunnen communiceren
+- <span style="color:#c8ab83;">Congestion</span> Opstopping van een verbinding (te vergelijken met file in het verkeer)
+- <span style="color:#c8ab83;">Connectivity device</span>: een toestel in het netwerk dat bedoeld is om data van één plaats naar een andere te krijgen
+- <span style="color:#c8ab83;">Doorvoer (throughput)</span>: De hoeveelheid bits per seconde die verwerkt kan worden. Dit wordt vaak bedoeld wanneer men "bandbreedte" zegt.
