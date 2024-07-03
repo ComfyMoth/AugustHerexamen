@@ -1,3 +1,5 @@
 Een computernetwerk is een verzameling van computers, servers, mainframes, netwerkapparaten, randapparatuur of andere apparaten die met elkaar verbonden zijn om gegevens en bronnen te delen.
 
-Een "host" is een computernetwerk is een apparaat dat gebruikt wordt om gegevens, diensten of applicaties toegankelijk te maken voor gebruikers of andere apparaten in het netwerk. Dit kan een comp
+Een "host" is een computernetwerk is een apparaat dat gebruikt wordt om gegevens, diensten of applicaties toegankelijk te maken voor gebruikers of andere apparaten in het netwerk. Dit kan een computer, een server of elk ander apparaat met netwerkconnectiviteit zijn. Elke host heeft een uniek adres, zoals een IP-adres, waardoor het in het netwerk geïdentificeerd en bereikt kan worden.
+
+Hosts staan niet rechtstreeks in verbinding met elkaar, maar zijn verbonden via zogenaamde "connectivity devices". Dit zijn apparaten zoals routers, switches en hubs. Deze apparaten regelen het verkeer binnen het netwerk door gegevenspakketten te ontvangen, te interpreten, en ze naar hun bestemming te sturen. Ze kunnen ook gebruikt worden netwerken te verbinden met het internet of met ander enetwerken.
