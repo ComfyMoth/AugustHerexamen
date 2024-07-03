@@ -6,4 +6,7 @@ Op het eerste gezicht kan Wireshark overkomen als een tool voor hackers, maar Wi
 
 Je kan Wireshark downloaden [hier](https://www.wireshark.org/download.html). Gebruik de standaard installatie-opties. Je kan achteraf nog altijd aanpassingen doen.
 
-**Run Wireshark niet als admin. Dit is een risico voor je eigen veiligheid**. Als je de foutmelding "NPF driver is not running" krijgt, run je ``
+**Run Wireshark niet als admin. Dit is een risico voor je eigen veiligheid**. Als je de foutmelding "NPF driver is not running" krijgt, run je `cmd` als admin. in `cmd` typ je het commando: `net start npf`. Daarna zou je Wireshark moeten kunnen uitvoeren om pakketten af te luisteren.
+
+## Gebruik
+[Video](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=79b9cea0-df9c-4aab-bf46-aac700dc2209)
