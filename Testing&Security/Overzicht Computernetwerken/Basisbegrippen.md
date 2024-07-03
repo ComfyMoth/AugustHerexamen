@@ -8,6 +8,11 @@
 - <span style="color:#c8ab83;">Frequentie</span>: de "dichtheid" van een golfsignaal, gemeten in Hertz, d.w.z aantal herhalingen per seconde
 - <span style="color:#c8ab83;">Host</span>: een "eindbestemming" op het netwerk (tegenhanger van "connectivity device")
 - <span style="color:#c8ab83;">(een) internet</span>: een netwerk dat zelf uit onderling verbonden netwerken bestaat
-- <span style="color:#c8ab83;">(het) Internet</span>: het grootste internet, waarop onder andere het World Wide Wibe te i
+- <span style="color:#c8ab83;">(het) Internet</span>: het grootste internet, waarop onder andere het World Wide Web te vinden is
 - <span style="color:#c8ab83;">IP-adres</span>: het adres waarop op een node op het publieke Internet in principe bereikt kan worden
-- <span style="color:#c8ab83;">Netwerkinterface</span>: een netwerkinterface
+	- om historische redenen klopt dit niet meer, maar het is een goed startpunt
+- <span style="color:#c8ab83;">Netwerkinterface</span>: een netwerkinterface is een hardware- of software component van een computer of ander apparaat waarmee het kan communiceren over een netwerk
+	- bv. een netwerkkaart of een gevirtualiseerde versie hiervan
+- <span style="color:#c8ab83;">Node</span>: een knooppunt in een netwerk
+- <span style="color:#c8ab83;">Packet Loss</span>: het verlies van data onderweg van een bestemming
+- <span style="color:#c8ab83;">Packet Switching</span>: een type communicatie waarbij geen verbinding tussen de eindpunten gereser
