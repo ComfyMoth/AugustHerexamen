@@ -1,0 +1,1 @@
+Het programma `traceroute` (op sommige systemen "tracert") is e
