@@ -1,3 +1,9 @@
 Het programma `traceroute` (op sommige systemen "tracert") is een tool die wordt gebruikt om het pad dat pakketten volgen van een bron naar een doelhost te achterhalen en te visualiseren.
 
-Traceroute biedt inzicht in elk punt (hop) langs het pad en helpt bij het identificeren ban de locatie van vertragingen of verstoringen in het netwerk. Je kan traceroute zien als een reeks opeenvolgende pings, waarbij steeds één stapje verder gezet wordt. Dit gebeurt door elk pakket een "time-to-live" ("resterende levensduur")
+Traceroute biedt inzicht in elk punt (hop) langs het pad en helpt bij het identificeren ban de locatie van vertragingen of verstoringen in het netwerk. Je kan traceroute zien als een reeks opeenvolgende pings, waarbij steeds één stapje verder gezet wordt. Dit gebeurt door elk pakket een "time-to-live" ("resterende levensduur") te geven. Per tussenstop wordt deze levensduur verminderd. Wanneer het pakket gedropt wordt, wordt de afzender verwittigd waar het verloren gegaan is.
+![](https://apwt.gitbook.io/~gitbook/image?url=https%3A%2F%2F3283203901-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FKrXKbRoPmGxyrXNQktCY%252Fuploads%252Fgit-blob-77e0555e1e997594ff9414cac1d846adb436a693%252Fuitvoer_traceroute.png%3Falt%3Dmedia&width=768&dpr=4&quality=100&sign=75dcf89&sv=1)
+
+# Belangrijke punten bij de interpretatie
+- <span style="color:#c8ab83;">Aantal hops</span>: geeft een indicatie van de afstand en de complexiteit van het pad naar de bestemming.
+- <span style="color:#c8ab83;">Reactietijden</span>: Hoge reactietijden bij een bepaalde hop kunnen wijzen op vertragingen bij dat netwerkapparaat.
+- <span style="color:#c8ab83;">ICMP</span>
