@@ -1,22 +1,22 @@
 - <span style="color:#c8ab83;">Bandbreedte</span>: Verschil tussen hoogste en laagste frequentie die door een kanaal kan getransporteerd worden
-- <span style="color:#d3c481;">Circuit switching</span>: Een type communicatie waarbij een verbinding tussen de eindpunten gereserveerd wordt
+- <span style="color:#d3c3a2;">Circuit switching</span>: Een type communicatie waarbij een verbinding tussen de eindpunten gereserveerd wordt
 	- vb: zoals in het klassieke telefoonnetwerk
 - <span style="color:#c8ab83;">Computernetwerk</span>: Een verzameling van toestellen die met elkaar kunnen communiceren
-- <span style="color:#d3c481;">Congestion</span> Opstopping van een verbinding (te vergelijken met file in het verkeer)
-- <span style="color:#d3c481;">Connectivity device</span>: een toestel in het netwerk dat bedoeld is om data van één plaats naar een andere te krijgen
-- <span style="color:#c8ab83;">Doorvoer (throughput)</span>: De hoeveelheid bits per seconde die verwerkt kan worden. Dit wordt vaak bedoeld wanneer men "bandbreedte" zegt.
-- <span style="color:#d3c481;">Frequentie</span>: de "dichtheid" van een golfsignaal, gemeten in Hertz, d.w.z aantal herhalingen per seconde
-- <span style="color:#c8ab83;">Host</span>: een "eindbestemming" op het netwerk (tegenhanger van "connectivity device")
-- <span style="color:#d3c481;">(een) internet</span>: een netwerk dat zelf uit onderling verbonden netwerken bestaat
-- <span style="color:#c8ab83;">(het) Internet</span>: het grootste internet, waarop onder andere het World Wide Web te vinden is
-- <span style="color:#d3c481;">IP-adres</span>: het adres waarop op een node op het publieke Internet in principe bereikt kan worden
+- <span style="color:#d3c3a2;">Congestion</span> Opstopping van een verbinding (te vergelijken met file in het verkeer)
+- <span style="color:#c8ab83;">Connectivity device</span>: een toestel in het netwerk dat bedoeld is om data van één plaats naar een andere te krijgen
+- <span style="color:#d3c3a2;">Doorvoer (throughput)</span>: De hoeveelheid bits per seconde die verwerkt kan worden. Dit wordt vaak bedoeld wanneer men "bandbreedte" zegt.
+- <span style="color:#c8ab83;">Frequentie</span>: de "dichtheid" van een golfsignaal, gemeten in Hertz, d.w.z aantal herhalingen per seconde
+- <span style="color:#d3c3a2;">Host</span>: een "eindbestemming" op het netwerk (tegenhanger van "connectivity device")
+- <span style="color:#c8ab83;">(een) internet</span>: een netwerk dat zelf uit onderling verbonden netwerken bestaat
+- <span style="color:#d3c3a2;">(het) Internet</span>: het grootste internet, waarop onder andere het World Wide Web te vinden is
+- <span style="color:#c8ab83;">IP-adres</span>: het adres waarop op een node op het publieke Internet in principe bereikt kan worden
 	- om historische redenen klopt dit niet meer, maar het is een goed startpunt
-- <span style="color:#c8ab83;">Netwerkinterface</span>: een netwerkinterface is een hardware- of software component van een computer of ander apparaat waarmee het kan communiceren over een netwerk
+- <span style="color:#d3c3a2;">Netwerkinterface</span>: een netwerkinterface is een hardware- of software component van een computer of ander apparaat waarmee het kan communiceren over een netwerk
 	- bv. een netwerkkaart of een gevirtualiseerde versie hiervan
 - <span style="color:#c8ab83;">Node</span>: een knooppunt in een netwerk
-- <span style="color:#c8ab83;">Packet Loss</span>: het verlies van data onderweg van een bestemming
+- <span style="color:#d3c3a2;">Packet Loss</span>: het verlies van data onderweg van een bestemming
 - <span style="color:#c8ab83;">Packet Switching</span>: een type communicatie waarbij geen verbinding tussen de eindpunten gereserveerd wordt
 	- bv. zoals bij de communicatie via de post
-- <span style="color:#c8ab83;">Protocol</span>: een stel regels voor geslaagd communicatie
+- <span style="color:#d3c3a2;">Protocol</span>: een stel regels voor geslaagd communicatie
 - <span style="color:#c8ab83;">Medium</span>: een kanaal waarover signalen verstuurd worden 
 	- bv. een koperbekabeling, glasvezel, het elektromagnetisch spectrum in het geval van draadloze communicatie
