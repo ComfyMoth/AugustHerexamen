@@ -1,1 +1,3 @@
-Het programma `traceroute` (op sommige systemen "tracert") is e
+Het programma `traceroute` (op sommige systemen "tracert") is een tool die wordt gebruikt om het pad dat pakketten volgen van een bron naar een doelhost te achterhalen en te visualiseren.
+
+Traceroute biedt inzicht in elk punt (hop) langs het pad en helpt bij het identificeren ban de locatie van vertragingen of verstoringen in het netwerk. Je kan traceroute zien als een reeks opeenvolgende pings, waarbij steeds één stapje verder gezet wordt. Dit gebeurt door elk pakket een "time-to-live" ("resterende levensduur")
