@@ -6,4 +6,5 @@ Traceroute biedt inzicht in elk punt (hop) langs het pad en helpt bij het identi
 # Belangrijke punten bij de interpretatie
 - <span style="color:#c8ab83;">Aantal hops</span>: geeft een indicatie van de afstand en de complexiteit van het pad naar de bestemming.
 - <span style="color:#c8ab83;">Reactietijden</span>: Hoge reactietijden bij een bepaalde hop kunnen wijzen op vertragingen bij dat netwerkapparaat.
-- <span style="color:#c8ab83;">ICMP</span>
+- <span style="color:#c8ab83;">Consistentie van reactietijden</span>: Variabiliteit in reactietijden kan wijzen op netwerkinstabiliteit of wisselende netwerkbelasting
+- <span style="color:#c8ab83;">Sterren of ontbrekende reacties</span>: Deze kunnen duiden op een hop die geen [[Ping#ICMP|ICMP]]-berichten genereert of een netwerk dat 
