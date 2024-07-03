@@ -8,4 +8,5 @@ Circuit switching maakt het mogelijk de kwaliteit van een verbinding te garander
 
 # Afweging
 [[Circuit en Packet switching#Packet Switching|Packet Switching]] is algemeen gesproken efficiënter dan [[Circuit en Packet switching#Circuit switching|Circuit Switching]]. Wanneer er data is en het kanaal nog plaats heeft, kan die data meteen doorgestuurd worden. Het is wel complexer: data die verspreid is over meerdere pakketten kan herordend worden, (gedeeltelijk) verloren gaan, niet alle data volgt noodzakelijk dezelfde weg, naar de eindbestemming.
-**Globaal gesproken gebruikt het Internet packet switching**
+
+**Globaal gesproken gebruikt het Internet packet switching**. Zelfs toepassingen waarbij sprake is van een "verbinding" (zoals internetbellen of video chat) gebruiken packet switching switching. Ook als je een inbelverbinding gebruikt, gebruik je packet switching
