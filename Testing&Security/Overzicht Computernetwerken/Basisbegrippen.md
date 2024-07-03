@@ -6,3 +6,4 @@
 - <span style="color:#c8ab83;">Connectivity device</span>: een toestel in het netwerk dat bedoeld is om data van één plaats naar een andere te krijgen
 - <span style="color:#c8ab83;">Doorvoer (throughput)</span>: De hoeveelheid bits per seconde die verwerkt kan worden. Dit wordt vaak bedoeld wanneer men "bandbreedte" zegt.
 - <span style="color:#c8ab83;">Frequentie</span>: de "dichtheid" van een golfsignaal, gemeten in Hertz, d.w.z aantal herhalingen per seconde
+- <span style="color:#c8ab83;">Host</span>: een "eindbestem"
