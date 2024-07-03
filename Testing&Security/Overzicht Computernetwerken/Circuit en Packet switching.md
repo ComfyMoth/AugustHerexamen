@@ -5,3 +5,6 @@ Circuit switching maakt het mogelijk de kwaliteit van een verbinding te garander
 
 # Packet Switching
 <span style="color:#c8ab83;">Packet switching</span> is een netwerkcommunicatietechniek waarbij te te verzenden gegevens worden opgedeeld in pakketten.  Elk pakket wordt onafhankelijk verzonden en kan verschillende routes door het netwerk nemen om bij de bestemming te komen.  Aan de ontvangende kant worden de pakketten opnieuw samengevoegd in de oorspronkelijke volgorde. Dit kan je vergelijken met een groep mensen die in verschillende auto's naar dezelfde bestemming vertrekt.
+
+# Afweging
+[[Circuit en Packet switching#Packet Switching]]
