@@ -1,0 +1,2 @@
+Het programma `ping` is een veelgebruikt netwerkdiagnostisch hulpmiddel dat helpt bij het testen van de connectiviteit tussen twee nodes in een netwerk. Het gebruikt het Internet Controle Message Protocol (<span style="color:#c8ab83;">ICMP</span>) om echo-verzoeken te sturen naar een doelhost en luistert naar echo-antwoorden. 
+Hierdoor kunnen gebruikers de beschikbaarheid en de reactietijd van het doelsysteem beoordelen.
