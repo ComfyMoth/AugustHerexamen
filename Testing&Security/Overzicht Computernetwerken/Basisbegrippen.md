@@ -1,0 +1,2 @@
+- <span style="color:#c8ab83;">Bandbreedte</span>: Verschil tussen hoogste en laagste frequentie die door een kanaal kan getransporteerd worden
+- <span style="color:#c8ab83;">Circuit switching</span>: Een type communicatie waarbij een verbinding tussen de eindpunten gesreserveerd wordt, vb
