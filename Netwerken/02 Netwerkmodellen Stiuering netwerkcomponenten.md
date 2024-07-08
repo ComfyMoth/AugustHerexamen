@@ -16,4 +16,11 @@
 # Lagenschema - Protocolstack
 Kunnen we de structuur van een netwerk in een soort universeel model gieten om alles overzichtelijk te houden?
 - Gelukkig wel
-- Modellen die je stap voor stap kan volgen
+- Modellen die je stap voor .stap kan volgen en een ontvanger in orde te krijgen
+- Modellen in de vorm van een <span style="color:#c8ab83;">lagenschema</span>
+- Op elke laag van het schema zijn andere protocollen actief / gelden er andere afspraken
+- Zo een lagenschema noemt men dus ook wel eens <span style="color:#c8ab83;">protocolstack</span>
+
+# Voorbeeld van een lagenschema uit leefwereld
+Van thuis tot op je reisbestemming geraken met het vliegtuig
+![[Pasted image 20240708163705.png]]
