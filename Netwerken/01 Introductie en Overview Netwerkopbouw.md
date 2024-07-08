@@ -52,4 +52,14 @@
 - Er gebeuren op een netwerk ook 'onzichtbare' taken
 	- Toepassingen achter de schermen
 	- <span style="color:#c8ab83;">Services / Diensten</span>
-	- Ofwel <span style="color:#c8ab83;">reliable</span>
+	- Ofwel <span style="color:#c8ab83;">reliable</span> of <span style="color:#c8ab83;">unreliable</span> (best effort) dienstverlening
+	- 'Huishoudelijke' taken zoals <span style="color:#c8ab83;">monitoring</span> en <span style="color:#c8ab83;">rapportering</span>
+
+# Protocollen
+- <span style="color:#c8ab83;">Gemaakte afspraken</span> om een goede communicatie te verkrijgen
+- Kan zijn op vlak van:
+	- Uit te voeren acties voor er gestart wordt met zenden / ontvangen van data
+	- Formattering van boodschappen
+	- Volgorde van versturen en ontvangen
+	- Eisen waaraan de plaatsing van bekabeling en apparaten aan moet voldoen
+	- Acties die moeten ondernomen worden als reactie 
