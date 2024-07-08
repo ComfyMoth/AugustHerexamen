@@ -40,4 +40,15 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 - Maakt de relaties tussen de onderdelen van het geheel duidelijk
 - Laat discussie toe waarbij iedereen weet waarover het gaat
 - Laat uitbreiding en verbetering sneller verlopen
-- Maakt dat een aanpassing op 1 gebied van de dienstverlening niet het volle
+- Maakt dat een aanpassing op 1 gebied van de dienstverlening niet het volledige geheel verstoort of platlegt
+	- Modulaire opbouw van een complex geheel
+- Het model volgen geeft minder kans op fouten of vergetelheden
+- Het model volgen geeft snellere resultaten bij het lokaliseren en oplossen van problemen
+
+# Theoretische referentie: ISO / OSI model
+![[Pasted image 20240708164232.png]]
+
+- <span style="color:#ffb1af;">Applicatie laag</span>: beschrijft het gedrag van netwerk applicaties
+- <span style="color:#ffdfbe;">Presentatie laag</span>
+
+# Echte Protocolstack: TCP / IP model
