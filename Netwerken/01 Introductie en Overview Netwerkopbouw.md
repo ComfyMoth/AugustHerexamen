@@ -43,4 +43,13 @@
 	- Wie is eigenaar van toestellen?
 	- Wie is eigenaar van data?
 	- Wie beheert wat?
-	- Wie heeft 
+	- Wie heeft er zeggenschap?
+
+# Taak van een netwerk?
+- Hardware infrastructuur bieden voor zichtbare toepassingen (applicaties)
+	- voorbeelden van zichtbare applicaties?
+	- Indien via een netwerk ter beschikking gesteld: <span style="color:#c8ab83;">gedistribueerde applicaties</span>
+- Er gebeuren op een netwerk ook 'onzichtbare' taken
+	- Toepassingen achter de schermen
+	- <span style="color:#c8ab83;">Services / Diensten</span>
+	- Ofwel <span style="color:#c8ab83;">reliable</span>
