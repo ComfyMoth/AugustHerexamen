@@ -115,10 +115,17 @@
 
 # Technieken en protocollen per type netwerk
 - Technieken en protocollen verschillen per type netwerk!
-	- LAN gebruikt andere protocollen dan WAN
+	- <span style="color:#ffb1af;">LAN</span> gebruikt andere protocollen dan <span style="color:#cc99fe;">WAN</span>
 	- Busnetwerk gebruikt andere protocollen dan ringnetwerk
-	- LAN kan opgebouwd worden 
+	- <span style="color:#ffb1af;">LAN</span> kan opgebouwd worden als bustopologie, maar ook als ringtopologie
+	- <span style="color:#cc99fe;">WAN</span> kan opgebouwd worden als een ring- , maar ook als boom- of maastopologie
+	- ENZ...
 - Technieken en protocollen verschillen ook afhankelijk van het gebruikte medium!
 	- Licht kan je niet over een koperkabel transporteren, elektriciteit niet over een glasvezelkabel
 - **Gevolg**: Veel verschillende protocollen en technieken om een netwerkinfrastructuur op te bouwen
 	- De opleiding behandelt enkel de meeste voorkomende
+
+# De network edge
+- Bevat het <span style="color:#c8ab83;">CPE</span> materiaal (Customer Premises Equipment)
+- Bevat eind-nodes (<span style="color:#c8ab83;">end-systems</span>)
+	- Zullen mees
