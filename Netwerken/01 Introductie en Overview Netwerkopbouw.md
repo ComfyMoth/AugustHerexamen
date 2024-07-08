@@ -73,4 +73,12 @@
 -> Terminologie vatbaar voor interpretatie afhankelijk van je eigen standpunt / betrokkenheid
 
 # Netwerken volgens schaalgrootte
-#LAN #MAN 
+#LAN #MAN #WAN
+- <span style="color:#ffb1af;">LAN</span> = Local Area Network
+	- kleinschaling
+	- korte afstanden
+	- eigendom van individu of kleine organisatie (vb. KMO, school of thuis)
+	- Beheer bij individu of klein team
+- <span style="color:#b4f0a8;">MAN</span> = Metropolitan Area Network
+	- schaalgrootte 
+- <span style="color:#cc99fe;">WAN</span> = Wide Area Network
