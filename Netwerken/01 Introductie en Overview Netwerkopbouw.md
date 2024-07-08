@@ -62,4 +62,15 @@
 	- Formattering van boodschappen
 	- Volgorde van versturen en ontvangen
 	- Eisen waaraan de plaatsing van bekabeling en apparaten aan moet voldoen
-	- Acties die moeten ondernomen worden als reactie 
+	- Acties die moeten ondernomen worden als reactie op ontvangen boodschappen
+	- ...
+
+# Netwerken vanuit verschillende standpunten
+- <span style="color:#c8ab83;">Network edge</span> = applicaties en hosts die zich lokaal bij jouw bevinden
+- <span style="color:#c8ab83;">Access network</span> = fysieke infrastructuur die toegang geeft tot andere netwerken
+- <span style="color:#c8ab83;">Backbone</span> of <span style="color:#c8ab83;">Network core</span> = onderling verbonden routers / gateways
+
+-> Terminologie vatbaar voor interpretatie afhankelijk van je eigen standpunt / betrokkenheid
+
+# Netwerken volgens schaalgrootte
+#LAN #MAN 
