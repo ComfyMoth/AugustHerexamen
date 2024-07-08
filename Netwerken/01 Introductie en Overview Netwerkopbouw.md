@@ -184,4 +184,14 @@
 	- Hiervan moeten verschillende gebruikers kunnen gebruik maken
 	- Elke gebruiker verbruikt 100 Kbps als hij actief is
 	- Een gebruiker is slecht 10% van de tijd actief
-- Bij Circuit switch
+- Bij Circuit switching: 10 gebruikers mogelijk op het netwerk. Idle time hoort toe aan user
+- Bij Packet switching: meer dan 10 gebruikers mogelijk op netwerk omdat idle time van 1 gebruiker kan gebruikt worden voor andere gebruiker
+
+- Circuit switching
+	- Geeft <span style="color:#c8ab83;">garanties</span> over performantie en beschikbaarheid
+
+- Packet switching:
+	- Goed voor <span style="color:#c8ab83;">bursty</span> data
+	- <span style="color:#c8ab83;">eenvoudiger</span> dan circuit switching
+	- <span style="color:#c8ab83;">Goedkoper</span> dan circuit switching
+	- Kans op netwerk <span style="color:#c8ab83;">congesti</span>
