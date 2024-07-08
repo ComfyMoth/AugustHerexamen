@@ -21,6 +21,15 @@ Kunnen we de structuur van een netwerk in een soort universeel model gieten om a
 - Op elke laag van het schema zijn andere protocollen actief / gelden er andere afspraken
 - Zo een lagenschema noemt men dus ook wel eens <span style="color:#c8ab83;">protocolstack</span>
 
-# Voorbeeld van een lagenschema uit leefwereld
+## Voorbeeld van een lagenschema uit leefwereld
 Van thuis tot op je reisbestemming geraken met het vliegtuig
 ![[Pasted image 20240708163705.png]]
+## Dienstverlening binnen een lagenmodel
+- Elke laag verschaft andere diensten
+- Alle diensten zijn nodig om de communicatie (de reis in ons voorbeeld) te laten lukken
+- Elke dienst heeft eigen interne regels en procedures
+- Elke laag is afhankelijk van de dienstverlening van de aangrenzende lagen
+	- Elke laag werkt heeft de dienstverlening van de vorige laag nodig
+	- Elke laag verschaft nuttige diensten voor de volgende laag
+- De dienstverlening = software die geschreven is en die bepaalde regels volgt
+- Elke set van regels en afspraken noemen we een protocl
