@@ -31,3 +31,16 @@
 
 - Internet is een aaneenschakeling van verschillende netwerken
 	- <span style="color:#c8ab83;">Hiërarchische opbouw</span> -> verschillende <span style="color:#c8ab83;">tiers</span> (gelaagde structuur)
+![[Pasted image 20240708150416.png]]
+
+- Communicatie
+	- Zenden en ontvangen van boodschappen
+	- Moet gebeuren volgens bepaalde afspraken = <span style="color:#c8ab83;">protocollen</span>
+- Afspraken / Protocollen worden vastgelegd in documenten = <span style="color:#c8ab83;">standaarden</span>
+	- Verschillende organisaties beheren deze documenten
+	- vb. RFC, IETF, IEEE, ...
+- Internet: een netwerk van netwerken (zie eerder)
+	- Wie is eigenaar van toestellen?
+	- Wie is eigenaar van data?
+	- Wie beheert wat?
+	- Wie heeft 
