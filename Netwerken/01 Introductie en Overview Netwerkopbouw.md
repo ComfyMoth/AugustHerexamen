@@ -80,5 +80,13 @@
 	- eigendom van individu of kleine organisatie (vb. KMO, school of thuis)
 	- Beheer bij individu of klein team
 - <span style="color:#b4f0a8;">MAN</span> = Metropolitan Area Network
-	- schaalgrootte 
+	- schaalgrootte  ~ een metropool (een grote stad)
+	- afstanden die oplopen tot tientallen kilometers
+	- eigendom (meestal) van 1 organisatie
+	- groot, verspreid team nodig om te beheren
 - <span style="color:#cc99fe;">WAN</span> = Wide Area Network
+	- schaalgrootte onbeperkt (heel de Aarde + Maan + satellieten + ???)
+	- Vele eigenaars en beheerdersteams moeten samenwerken
+
+# Netwerken volgens Topologie
+## Ster netwerk
