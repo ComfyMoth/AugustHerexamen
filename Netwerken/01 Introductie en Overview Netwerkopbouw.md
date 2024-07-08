@@ -20,3 +20,14 @@
 - Toestellen die 1 of meerdere specifieke taken uitvoeren
 	- Ofwel <span style="color:#c8ab83;">end systems</span> (=<span style="color:#c8ab83;">hosts</span>)
 	- Ofwel <span style="color:#c8ab83;">connectivity devices</span> (toestellen om andere toestellen aan elkaar te koppelen)
++
+- Applicaties
++
+- Doorgestuurde gegevens (<span style="color:#c8ab83;">data</span>)
++
+- Verbindingen (<span style="color:#c8ab83;">links</span>)
+	- Bestaande uit verschillende media
+	- Elk met eigen beperkingen
+
+- Internet is een aaneenschakeling van verschillende netwerken
+	- <span style="color:#c8ab83;">Hiërarchische opbouw</span> -> verschillende <span style="color:#c8ab83;">tiers</span> (gelaagde structuur)
