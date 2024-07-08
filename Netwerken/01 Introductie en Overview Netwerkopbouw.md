@@ -200,10 +200,10 @@
 
 # Soorten communicatie
 - Afhankelijk van hoe er gecommuniceerd wordt, onderscheiden we:
-	- <span style="color:#c8ab83;">Simplex</span>: enkelrichtingsverkeer. De betrokken partijen hebben een duidelijke rol: ofwel zijn ze zender, ofwel ontvanger. De rollen wisselen niet.
-	- <span style="color:#c8ab83;">Half duplex</span>: strikt geregeld tweerichtingsverkeer. De betrokken partijen kunnen zowel zender als ontvanger zijn en dit kan ook wisselen. Tegelijk zender en ontvanger zijn kan echter niet
-	- <span style="color:#c8ab83;">Full duplex</span>: volledig vrij tweerichtingsverkeer. De betrokken partijen kunnen zender en ontvanger 
+	- <span style="color:#ffb1af;">Simplex</span>: enkelrichtingsverkeer. De betrokken partijen hebben een duidelijke rol: ofwel zijn ze zender, ofwel ontvanger. De rollen wisselen niet.
+	- <span style="color:#ffdfbe;">Half duplex</span>: strikt geregeld tweerichtingsverkeer. De betrokken partijen kunnen zowel zender als ontvanger zijn en dit kan ook wisselen. Tegelijk zender en ontvanger zijn kan echter niet
+	- <span style="color:#ffffbf;">Full duplex</span>: volledig vrij tweerichtingsverkeer. De betrokken partijen kunnen zender en ontvanger tegelijkertijd zijn
 - Afhankelijk van het aantal betrokken partijen in de communicatie, onderscheiden we:
-	- <span style="color:#c8ab83;">Unicast</span>: 1 node communiceert met exact 1 andere node
-	- <span style="color:#c8ab83;">Multicast</span>: 1 node communiceert met een groep nodes in het netwerk
-	- <span style="color:#c8ab83;">Broadcast</span>: 1 node communiceert met alle andere nodes in het netwerk
+	- <span style="color:#ffb1af;">Unicast</span>: 1 node communiceert met exact 1 andere node
+	- <span style="color:#ffdfbe;">Multicast</span>: 1 node communiceert met een groep nodes in het netwerk
+	- <span style="color:#ffffbf;">Broadcast</span>: 1 node communiceert met alle andere nodes in het netwerk
