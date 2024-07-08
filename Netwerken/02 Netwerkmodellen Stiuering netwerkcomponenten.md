@@ -81,5 +81,9 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 
 # Encapsulatie
 - Data sturen van bron naast bestemming:
-	- Data vertrekt bij applicatielaag aan de kant
-- Elke laag die bij de bron neerwaarts wordt doorlopen, voegt extra informatie toe aan de data
+	- Data vertrekt bij <span style="color:#ffb1af;">applicatie laag</span> aan de kant van de bron, en doorloopt door alle lagen van boven naar beneden.
+	- Data komt toe bij de bestemming op de <span style="color:#e4569e;">fysieke laag</span>, en doorloopt daar alle lagen van beneden naar boven.
+- Elke laag die bij de bron neerwaarts wordt doorlopen, voegt extra informatie toe aan de data, voegt extra informatie toe aan de data
+- Elke laag die bij de bestemming opwaarts wordt doorlopen, verwijdert deze extra info zodat uiteindelijk de oorspronkelijke data overblijft
+- Het toevoegen van extra informatie noemt men <span style="color:#c8ab83;">encapsulatie</span>.
+- De data die een laag van zijn
