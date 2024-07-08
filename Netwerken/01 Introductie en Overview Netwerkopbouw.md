@@ -171,4 +171,9 @@
 - vb. telefonienetwerk
 
 ## Packet switching
-- 
+- Datastroom wordt in kleinere blokken verdeeld (<span style="color:#c8ab83;">packets</span>)
+- Packets van verschillende zenders delen het medium en gebruiken de volledige bandbreedte
+- Geen garantie over de performantie
+- Resource gebruikt 'as-needed'
+- Zenders moeten wedijveren voor het gebruik van het medium (= <span style="color:#c8ab83;">contention</span>)
+- Medium kan overvol geraken (= <span style="color:#c8ab83;">congestion</span>) met vertraging en verlies van data tot gevolg
