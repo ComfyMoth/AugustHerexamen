@@ -135,8 +135,11 @@
 # Acces networks
 - Verbinding van edge netwerk aan de backbone
 	- Kan residentieel, institutioneel of mobiel netwerk zijn
-	- kan <span style="color:#c8ab83;">CPE</span> of <span style="color:#c8ab83;">dedicated</span> zijn
+	- kan <span style="color:#c8ab83;">shared</span> of <span style="color:#c8ab83;">dedicated</span> zijn
+	- bevat andere componenten / componenten met andere capaciteiten dan het edge netwerk (vb. modem, andere snelheids-eisen, andere <span style="color:#c8ab83;">throughput</span> vereisten)
 - Voorbeelden:
-	- <span style="color:#c8ab83;">Dialup</span> via model
-	- <span style="color:#c8ab83;">xDSL</span> (digital subscriber)
-	- <span style="color:#c8ab83;">HFC</span> (Hybrid fiber coax)
+	- <span style="color:#c8ab83;">Dialup</span> via modem (héél vroeger, via klassiek telefonie netwerk, 56 kbps)
+	- <span style="color:#c8ab83;">xDSL</span> (digital subscriber line, twisted pai Cu, symmetrisch of asymmetrisch, ~mbps)
+	- <span style="color:#c8ab83;">HFC</span> (Hybrid fiber coax, breedband internet + digitale TV + telefonie, asymmetrisch)
+
+- De meest draadloze netwerken kan men ook beschouwen als access network
