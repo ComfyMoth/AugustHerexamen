@@ -90,3 +90,27 @@
 
 # Netwerken volgens Topologie
 ## Ster netwerk
+![[Pasted image 20240708151608.png]]
+- Hosts verbonden met een hub
+- Elke host ontvangt elk signaal op het netwerk
+
+## Bus netwerk
+![[Pasted image 20240708151637.png]]
+- Hosts verbonden aan gemeenschappelijk medium
+
+## Boom netwerk
+![[Pasted image 20240708151655.png]]
+- Steeds 1 Route tussen twee nodes
+
+## Ring netwerk
+![[Pasted image 20240708151714.png]]
+- Geen begin- of eindpunt
+- Dubbele ring voor redundantie
+
+## Maas netwerk
+![[Pasted image 20240708151737.png]]
+- Willekeurig aantal verbindingen tussen nodes
+- Onduidelijke structuur
+- Full mesh wanneer alle nodes verbindingen hebben naar alle andere nodes
+
+# 
