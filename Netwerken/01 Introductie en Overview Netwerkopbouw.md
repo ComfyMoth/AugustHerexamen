@@ -162,3 +162,13 @@
 
 # Manier van data overdracht
 ## Circuit switching
+- Er wordt voor de communicatie een verbinding gelegd tussen zender en ontvanger
+- Verschillende verbinding op 1 medium mogelijk
+- Elke verbinding krijgt gereserveerde deel van de beschikbare <span style="color:#c8ab83;">bandbreedte</span>
+- Dedicated verbinding die <span style="color:#c8ab83;">idle</span> kan staat (verkwisting van capaciteit)
+- Continue stroom data over verbinding
+- Gegarandeerde <span style="color:#c8ab83;">performantie</span>
+- vb. telefonienetwerk
+
+## Packet switching
+- 
