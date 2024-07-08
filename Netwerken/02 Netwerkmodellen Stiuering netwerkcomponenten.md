@@ -86,4 +86,13 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 - Elke laag die bij de bron neerwaarts wordt doorlopen, voegt extra informatie toe aan de data, voegt extra informatie toe aan de data
 - Elke laag die bij de bestemming opwaarts wordt doorlopen, verwijdert deze extra info zodat uiteindelijk de oorspronkelijke data overblijft
 - Het toevoegen van extra informatie noemt men <span style="color:#c8ab83;">encapsulatie</span>.
-- De data die een laag van zijn
+- De data die een laag van zijn bovenliggende buur aankrijgt, noemt men <span style="color:#c8ab83;">de payload</span>.
+- De extra informatie die wordt toegevoegd noemt men <span style="color:#c8ab83;">de overhead</span>
+	- Heeft enkel tijdelijk nut
+	- Is wel noodzakelijk voor een goede afhandeling van het communicatieproces
+![[Pasted image 20240708165609.png]]
+
+# Collision domain
+- Wanneer je hosts verbindt via een <span style="color:#c8ab83;">collision domain</span>.
+- Wanneer twee hosts gelijktijdig zouden zenden:
+- Hosts mogen / kunnen enkel beurtelings zenden
