@@ -32,4 +32,12 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 	- Elke laag werkt heeft de dienstverlening van de vorige laag nodig
 	- Elke laag verschaft nuttige diensten voor de volgende laag
 - De dienstverlening = software die geschreven is en die bepaalde regels volgt
-- Elke set van regels en afspraken noemen we een protocl
+- Elke set van regels en afspraken noemen we een protocol
+- Per laag kunnen meerdere protocols actief zijn
+
+## Nut van een lagenmodel
+- Maakt complexe systemen begrijpelijk
+- Maakt de relaties tussen de onderdelen van het geheel duidelijk
+- Laat discussie toe waarbij iedereen weet waarover het gaat
+- Laat uitbreiding en verbetering sneller verlopen
+- Maakt dat een aanpassing op 1 gebied van de dienstverlening niet het volle
