@@ -71,4 +71,15 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 	- <span style="color:#e4569e;">Fysieke laag</span>: ISDN, DSL, 100BASE-FX, 100BASE-T
 
 # Netwerkcomponenten
-- Een netwrk
+- Een netwerk bestaat uit verschillende componenten
+- Elke component levert specifieke dienstverlening
+	- Elke component kan men situeren op een bepaalde laag
+	- Elke component mag enkel de info van de eigen laag en de lager gelegen lagen lezen en gebruiken om beslissingen te nemen
+	- Info uit lager gelegen lagen mag aangepast worden:
+	- Opgelet:
+	![[Pasted image 20240708165219.png]]
+
+# Encapsulatie
+- Data sturen van bron naast bestemming:
+	- Data vertrekt bij applicatielaag aan de kant
+- Elke laag die bij de bron neerwaarts wordt doorlopen, voegt extra informatie toe aan de data
