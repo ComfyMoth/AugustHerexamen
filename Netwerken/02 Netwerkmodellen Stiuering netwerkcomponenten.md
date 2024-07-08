@@ -57,3 +57,11 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 - <span style="color:#e4569e;">Fysieke laag</span>: beschrijft bits, fysieke signalen en fysieke media
 
 # Echte Protocolstack: TCP / IP model
+![[Pasted image 20240708164716.png]]
+
+- Geen <span style="color:#ffdfbe;">Presentatie laag</span>
+	- Deze dienstverlening uit het theoretische model wordt hier afgehandeld door de <span style="color:#ffb1af;">applicatie laag</span>
+- Geen <span style="color:#ffffbf;">Sessie laag</span>
+	- Deze dienstverlening uit het theoretische model wordt hier afgehandeld door de <span style="color:#b4f0a8;">Transport laag</span> 
+- Voorbeelden van protocollen op elke laag
+	- <span style="color:#ffb1af;">Applicatie laag</span>
