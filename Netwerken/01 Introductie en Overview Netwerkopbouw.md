@@ -128,4 +128,15 @@
 # De network edge
 - Bevat het <span style="color:#c8ab83;">CPE</span> materiaal (Customer Premises Equipment)
 - Bevat eind-nodes (<span style="color:#c8ab83;">end-systems</span>)
-	- Zullen mees
+	- Zullen meestal gebruikt worden om applications op te gebruiken door menselijke gebruikers (vb. web browings, email, ...)
+	- Deze hosts werken ofwel volgens
+![[Pasted image 20240708152238.png]]
+
+# Acces networks
+- Verbinding van edge netwerk aan de backbone
+	- Kan residentieel, institutioneel of mobiel netwerk zijn
+	- kan <span style="color:#c8ab83;">CPE</span> of <span style="color:#c8ab83;">dedicated</span> zijn
+- Voorbeelden:
+	- <span style="color:#c8ab83;">Dialup</span> via model
+	- <span style="color:#c8ab83;">xDSL</span> (digital subscriber)
+	- <span style="color:#c8ab83;">HFC</span> (Hybrid fiber coax)
