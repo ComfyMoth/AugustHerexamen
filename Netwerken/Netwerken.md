@@ -1,6 +1,1 @@
----
-tags:
-  - "#course"
----
-01. Overzicht Computernetwerken
-2. Netwerkmodellen
+Link naar AP: [hier](https://learning.ap.be/course/view.php?id=49743)
