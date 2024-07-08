@@ -113,4 +113,12 @@
 - Onduidelijke structuur
 - Full mesh wanneer alle nodes verbindingen hebben naar alle andere nodes
 
-# 
+# Technieken en protocollen per type netwerk
+- Technieken en protocollen verschillen per type netwerk!
+	- LAN gebruikt andere protocollen dan WAN
+	- Busnetwerk gebruikt andere protocollen dan ringnetwerk
+	- LAN kan opgebouwd worden 
+- Technieken en protocollen verschillen ook afhankelijk van het gebruikte medium!
+	- Licht kan je niet over een koperkabel transporteren, elektriciteit niet over een glasvezelkabel
+- **Gevolg**: Veel verschillende protocollen en technieken om een netwerkinfrastructuur op te bouwen
+	- De opleiding behandelt enkel de meeste voorkomende
