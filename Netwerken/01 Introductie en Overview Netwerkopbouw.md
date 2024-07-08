@@ -148,5 +148,17 @@
 
 - De meest draadloze netwerken kan men ook beschouwen als access network
 - Wireless [[01 Introductie en Overview Netwerkopbouw#LAN|LAN]] technologieën
-	- Privaat gebruik, om van eender waar in huis / school / bedrijf te koppelen aan het lokale netwer
+	- Privaat gebruik, om van eender waar in huis / school / bedrijf te koppelen aan het lokale netwerk
+	- <span style="color:#c8ab83;">IEEE 802.11 standaarden</span>
 - Wireless [[01 Introductie en Overview Netwerkopbouw#WAN|WAN]] technologieën
+	- Voorzien door telecom operatoren om te koppelen aan het netwerk van de operator
+	- <span style="color:#c8ab83;">3G, 4G, 5G</span>
+
+# De backbone
+- Netwerk van verbonden routers, netwerk dat netwerken verbindt, netwerk achter het access netwerk
+- Wat is op dit schema edge, access en backbone?
+![[Pasted image 20240708152952.png]]
+
+
+# Manier van data overdracht
+## Circuit switching
