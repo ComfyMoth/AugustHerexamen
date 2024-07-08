@@ -95,4 +95,15 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 # Collision domain
 - Wanneer je hosts verbindt via een <span style="color:#c8ab83;">collision domain</span>.
 - Wanneer twee hosts gelijktijdig zouden zenden:
+	- Collision (botsing) van de signalen
+	- Communicatie mislukt
 - Hosts mogen / kunnen enkel beurtelings zenden
+![[Pasted image 20240708165729.png]]
+
+- Wanneer je hosts verbindt via een switch:
+	- Dan krijg je achter elke switch poort een collision domain
+![[Pasted image 20240708165756.png]]
+# Broadcast domain
+- als een hub een broadcast bericht ontvangt, dan wordt dit bericht op alle poorten weer uitgestuurd
+- Als een switch een broadcast bericht ontvangt, dan wordt dit bericht op alle uitgaande poorten weer uitgestuurd
+- De reikwijdte waarbinnen een broadcast bericht zich kan verspreiden = 
