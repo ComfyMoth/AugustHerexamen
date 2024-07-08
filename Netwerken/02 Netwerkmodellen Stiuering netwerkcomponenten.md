@@ -49,6 +49,10 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 ![[Pasted image 20240708164232.png]]
 
 - <span style="color:#ffb1af;">Applicatie laag</span>: beschrijft het gedrag van netwerk applicaties
-- <span style="color:#ffdfbe;">Presentatie laag</span>
+- <span style="color:#ffdfbe;">Presentatie laag</span>: beschrijft de interpretatie van data (encryptie, compressie, codecs)
+- <span style="color:#ffffbf;">Sessie laag</span>: beschrijft het opzetten van verbindingen, het synchroniseren van de data stroom, het controleren van de data
+- <span style="color:#b4f0a8;">Transport laag</span>: beschrijft de proces naar proces data-overdracht binnen een toestel
+- <span style="color:#a9d0f7;">Netwerk laag</span>: beschrijft de adressering van hosts op een netwerk en de routering van data van bron tot bestemming
+- <span style="color:#cc99fe;">Datalink laag</span>: beschrijft de data overdr
 
 # Echte Protocolstack: TCP / IP model
