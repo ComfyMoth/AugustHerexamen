@@ -194,4 +194,13 @@
 	- Goed voor <span style="color:#c8ab83;">bursty</span> data
 	- <span style="color:#c8ab83;">eenvoudiger</span> dan circuit switching
 	- <span style="color:#c8ab83;">Goedkoper</span> dan circuit switching
-	- Kans op netwerk <span style="color:#c8ab83;">congesti</span>
+	- Kans op netwerk <span style="color:#c8ab83;">congestion</span> met impact voor iedereen die het netwerk deelt
+	- Soms <span style="color:#c8ab83;">circuit-like gedrag</span> gewenst op een packet switched netwerk (om vb. te voldoen aan maximale vertragingseisen)
+		- <span style="color:#c8ab83;">Virtual circuit switching</span> mechanismen
+
+# Soorten communicatie
+- Afhankelijk van hoe er gecommuniceerd wordt, onderscheiden we:
+- Afhankelijk van het aantal betrokken partijen in de communicatie, onderscheiden we:
+	- <span style="color:#c8ab83;">Unicast</span>: 1 node communiceert met exact 1 andere node
+	- <span style="color:#c8ab83;">Multicast</span>: 1 node communiceert met een groep nodes in het netwerk
+	- <span style="color:#c8ab83;">Broadcast</span>
