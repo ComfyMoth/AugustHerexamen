@@ -74,16 +74,20 @@
 
 # Netwerken volgens schaalgrootte
 #LAN #MAN #WAN
+
+## LAN
 - <span style="color:#ffb1af;">LAN</span> = Local Area Network
 	- kleinschaling
 	- korte afstanden
 	- eigendom van individu of kleine organisatie (vb. KMO, school of thuis)
 	- Beheer bij individu of klein team
+## MAN
 - <span style="color:#b4f0a8;">MAN</span> = Metropolitan Area Network
 	- schaalgrootte  ~ een metropool (een grote stad)
 	- afstanden die oplopen tot tientallen kilometers
 	- eigendom (meestal) van 1 organisatie
 	- groot, verspreid team nodig om te beheren
+## WAN
 - <span style="color:#cc99fe;">WAN</span> = Wide Area Network
 	- schaalgrootte onbeperkt (heel de Aarde + Maan + satellieten + ???)
 	- Vele eigenaars en beheerdersteams moeten samenwerken
@@ -143,3 +147,6 @@
 	- <span style="color:#c8ab83;">HFC</span> (Hybrid fiber coax, breedband internet + digitale TV + telefonie, asymmetrisch)
 
 - De meest draadloze netwerken kan men ook beschouwen als access network
+- Wireless [[01 Introductie en Overview Netwerkopbouw#LAN|LAN]] technologieën
+	- Privaat gebruik, om van eender waar in huis / school / bedrijf te koppelen aan het lokale netwer
+- Wireless [[01 Introductie en Overview Netwerkopbouw#WAN|WAN]] technologieën
