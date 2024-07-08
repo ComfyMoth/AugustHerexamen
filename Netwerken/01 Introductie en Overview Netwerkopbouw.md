@@ -177,3 +177,11 @@
 - Resource gebruikt 'as-needed'
 - Zenders moeten wedijveren voor het gebruik van het medium (= <span style="color:#c8ab83;">contention</span>)
 - Medium kan overvol geraken (= <span style="color:#c8ab83;">congestion</span>) met vertraging en verlies van data tot gevolg
+
+# Circuit switching of package switching
+- Veronderstel
+	- Een lijn met capaciteit van 1Mbps
+	- Hiervan moeten verschillende gebruikers kunnen gebruik maken
+	- Elke gebruiker verbruikt 100 Kbps als hij actief is
+	- Een gebruiker is slecht 10% van de tijd actief
+- Bij Circuit switch
