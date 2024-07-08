@@ -53,6 +53,7 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 - <span style="color:#ffffbf;">Sessie laag</span>: beschrijft het opzetten van verbindingen, het synchroniseren van de data stroom, het controleren van de data
 - <span style="color:#b4f0a8;">Transport laag</span>: beschrijft de proces naar proces data-overdracht binnen een toestel
 - <span style="color:#a9d0f7;">Netwerk laag</span>: beschrijft de adressering van hosts op een netwerk en de routering van data van bron tot bestemming
-- <span style="color:#cc99fe;">Datalink laag</span>: beschrijft de data overdr
+- <span style="color:#cc99fe;">Datalink laag</span>: beschrijft de data overdracht tussen naburige [[01 Introductie en Overview Netwerkopbouw#LAN|LAN]] elementen
+- <span style="color:#e4569e;">Fysieke laag</span>: beschrijft bits, fysieke signalen en fysieke media
 
 # Echte Protocolstack: TCP / IP model
