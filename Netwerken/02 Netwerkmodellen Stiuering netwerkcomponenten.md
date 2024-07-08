@@ -62,6 +62,13 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 - Geen <span style="color:#ffdfbe;">Presentatie laag</span>
 	- Deze dienstverlening uit het theoretische model wordt hier afgehandeld door de <span style="color:#ffb1af;">applicatie laag</span>
 - Geen <span style="color:#ffffbf;">Sessie laag</span>
-	- Deze dienstverlening uit het theoretische model wordt hier afgehandeld door de <span style="color:#b4f0a8;">Transport laag</span> 
+	- Deze dienstverlening uit het theoretische model wordt hier afgehandeld door de <span style="color:#b4f0a8;">transport laag</span> 
 - Voorbeelden van protocollen op elke laag
-	- <span style="color:#ffb1af;">Applicatie laag</span>
+	- <span style="color:#ffb1af;">Applicatie laag</span>: HTTP, FTP, SMTP, IMAP
+	- <span style="color:#b4f0a8;">Transport laag</span>: UDP, TCP
+	- <span style="color:#a9d0f7;">Netwerk laag</span>: IPv4, IPv6, OSPF, EIGRP
+	- <span style="color:#cc99fe;">Datalink laag</span>: Ethernet, 802.3, 802.11a-b-h-n-...
+	- <span style="color:#e4569e;">Fysieke laag</span>: ISDN, DSL, 100BASE-FX, 100BASE-T
+
+# Netwerkcomponenten
+- Een netwrk
