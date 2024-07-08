@@ -106,4 +106,9 @@ Van thuis tot op je reisbestemming geraken met het vliegtuig
 # Broadcast domain
 - als een hub een broadcast bericht ontvangt, dan wordt dit bericht op alle poorten weer uitgestuurd
 - Als een switch een broadcast bericht ontvangt, dan wordt dit bericht op alle uitgaande poorten weer uitgestuurd
-- De reikwijdte waarbinnen een broadcast bericht zich kan verspreiden = 
+- De reikwijdte waarbinnen een broadcast bericht zich kan verspreiden = <span style="color:#c8ab83;">broadcast domain</span>
+![[Pasted image 20240708165920.png]]
+
+- Een router laat geen broadcast berichten door
+- Een router vormt de begrenzing van een broadcast domain
+![[Pasted image 20240708165949.png]]
