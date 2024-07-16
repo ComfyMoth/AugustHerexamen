@@ -1,7 +1,8 @@
 # Waar type je de commando's in
 in CMD!
 1. recht-klik  op de windows knop
-2. Klik op de uitvoeren knop
+![[Pasted image 20240716140357.png]]
+2.  Klik op de uitvoeren knop
 
 # Command list
 ## PING (ip adress of domain)
