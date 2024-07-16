@@ -31,3 +31,5 @@ voorbeeld:
 (meer naar onder staan de wifi & ethernet)
 ## Netstat
 Geeft een zicht over de poorten die open staan op jou PC en UDP/TCP statistieken. Ook zicht over TCP-connecties die actief zijn
+![[Pasted image 20240716141352.png]]
+(ip adresses are hidden for privacy)
