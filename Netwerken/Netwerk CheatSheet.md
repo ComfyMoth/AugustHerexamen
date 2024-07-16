@@ -26,5 +26,8 @@ voorbeeld:
 ## IPconfig
 Toont details van eht netwerk waarmee je verbonden bent. Dit bevat vb je ip, je subnet mask en de fault gateway
 
+voorbeeld:
+![[Pasted image 20240716140949.png]]
+(meer naar onder staan de wifi & ethernet)
 ## Netstat
 Geeft een zicht over de poorten die open staan op jou PC en UDP/TCP statistieken. Ook zicht over TCP-connecties die actief zijn
