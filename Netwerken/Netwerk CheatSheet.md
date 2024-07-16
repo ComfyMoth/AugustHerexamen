@@ -3,7 +3,7 @@ in CMD!
 1. recht-klik  op de windows knop
 ![[Pasted image 20240716140357.png]]
 2.  Klik op de uitvoeren knop
-
+![[Pasted image 20240716140741.png]]
 # Command list
 ## PING (ip adress of domain)
 Geeft informatie over hoe lang een pakketje nodig heeft om bij dat ip adress te raken en terug
