@@ -8,3 +8,10 @@ Gelijkaardig aan [[Netwerk CheatSheet#Command list#PING (ip adress of domain)|PI
 ![[Pasted image 20240716135929.png]]
 
 ## NSlookup (ip adres of domain)
+Toont informatie over de DNS server waar de pc mee is verbonden. Kan ook gebruikt worden om te zien welk ip aan een bapaald domein hangt en vice versa. Kan ook gebruikt worden om specifiek via bepaalde DNS server dit op te vragen
+
+## IPconfig
+Toont details van eht netwerk waarmee je verbonden bent. Dit bevat vb je ip, je subnet mask en de fault gateway
+
+## Netstat
+Geeft een zicht over de poorten die open staan op jou PC en UDP/TCP statistieken. Ook zicht over TCP-connecties die act
