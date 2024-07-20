@@ -28,4 +28,20 @@ console.log(newArray); // 1,2,3,4,5
 Beide verwijzen nu naar een aparte plaats in het geheugen
 
 # Objecten kopiëren
-Het bovenstaande geldt
+Het bovenstaande geldt ook voor objecten:
+*deze code werkt niet*
+```ts
+let luna = { name: 'Luna Berry', age: 22 };
+let clone = luna;
+
+clone.name = 'Clone Berry'
+
+console.log(luna); //Clone Berry
+console.log(clone); //Clone Berry
+```
+
+*deze code gebruikt de spread syntax en werkt dus wel*
+```ts
+let luna = {name: 'Luna Berry', age: 22}
+let clone = {...}
+```
