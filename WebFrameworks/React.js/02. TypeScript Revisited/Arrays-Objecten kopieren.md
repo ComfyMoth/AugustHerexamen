@@ -54,7 +54,7 @@ console.log(clone); // Clone Berry
 Het is wel belangrijk dat je weet dat je hiermee enkel objecten kan kopiëren met 1 niveau diep
 ```ts
 let address = { street: '123 fakestreet' };
-let luna = { name: 'Luna Berry', age 22, address: address };
+let luna = { name: 'Luna Berry', age: 22, address: address };
 let clone = {...luna}
 
 clone.name = 'Clone Berry';
@@ -66,4 +66,9 @@ console.log(clone.address.street) // 234 fakestreet
 
 Beide address velden wijzen naar hetzelfde object
 
-Het kopiëren van objecten van meerdere niveau's diep
+Het kopiëren van objecten van meerdere niveau's diep noemen ze vaak een **'deep copy'** van het object. De beste manier om dit te doen is momenteel door eerst het object om te zetten naar een JSON-string en dan direct terug om te zetten naar een object:
+```ts
+let address = { street: '123' }
+let luna = { name: 'Luna Berry', age: 37, address: address };
+let clone = JSON.parse(JSON.stringify(lun))
+```
