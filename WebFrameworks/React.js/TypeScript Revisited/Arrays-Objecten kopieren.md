@@ -5,4 +5,13 @@ let array : number[] = [1,2,3,4];
 let NewArray : number[] = array;
 ```
 
-Maar dat werkt niet! Hierboven wordt gewoon de referentie naar `array` toegewezen aan de variabele `newArray`. `array` en `newArray` verwijzen gewoon naar dezelfde plaats
+Maar dat werkt niet! Hierboven wordt gewoon de referentie naar `array` toegewezen aan de variabele `newArray`. `array` en `newArray` verwijzen gewoon naar dezelfde plaats in het geheugen. Het onderstaande voorbeeld toont dit aan:
+```ts
+let array : number[] = [1,2,3,4];
+let newArray : number[] = array;
+
+newArray.push(5);
+console.log(array); // 1,2,3,4,5
+console.log(newArray); // 1,2,3,4,5
+```
+Als je een kopie van een array moet maken dan ga je gebruik moeten maken van de spread syntax (drie puntjes)
