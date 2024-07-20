@@ -1,4 +1,5 @@
-Spread = 
+Spread = ...
+- voorbeeld met Array:
 ```ts
 let array : number[] = [1,2,3,4];
 let newArray : number[] = array;

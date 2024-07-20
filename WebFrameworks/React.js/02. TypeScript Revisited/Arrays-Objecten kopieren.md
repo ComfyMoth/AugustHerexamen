@@ -43,5 +43,12 @@ console.log(clone); //Clone Berry
 *deze code gebruikt de spread syntax en werkt dus wel*
 ```ts
 let luna = {name: 'Luna Berry', age: 22}
-let clone = {...}
+let clone = {...luna};
+
+clone.name = 'Clone Luna';
+
+console.log(luna); // Luna Berry
+console.log(clone); // Clone Berry
 ```
+
+Het is wel belangrijk dat je weet dat je hiermee enkel objecten kan kopiëren met 1 niv
