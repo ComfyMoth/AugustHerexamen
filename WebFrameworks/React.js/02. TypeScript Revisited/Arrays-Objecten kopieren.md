@@ -68,7 +68,13 @@ Beide address velden wijzen naar hetzelfde object
 
 Het kopiëren van objecten van meerdere niveau's diep noemen ze vaak een **'deep copy'** van het object. De beste manier om dit te doen is momenteel door eerst het object om te zetten naar een JSON-string en dan direct terug om te zetten naar een object:
 ```ts
-let address = { street: '123' }
+let address = { street: '123 fakestreet' }
 let luna = { name: 'Luna Berry', age: 37, address: address };
-let clone = JSON.parse(JSON.stringify(lun))
+let clone = JSON.parse(JSON.stringify(luna));
+
+clone.name = 'Clone Berry';
+clone.address.street = '234 fakestreet'
+
+console.log(luna.address.street); // 123 Fakestreet
+console.log()
 ```
