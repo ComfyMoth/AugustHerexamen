@@ -95,7 +95,7 @@ console.log(options.size?.height ?? 180); // 180
 ```
 In dit geval wordt de height 180 als de height undefined is
 # && operator
-De `&&` operator wordt gebruikt om een expressie te evalueren als de linkerkant `true` is. Als de linkerkant niet waar is dan za
+De `&&` operator wordt gebruikt om een expressie te evalueren als de linkerkant `true` is. Als de linkerkant niet waar is dan zal de rechterkant niet geëvalueerd worden.
 ```ts
 const hasLight = false;
 
@@ -105,4 +105,17 @@ const turnOffLight = () => {
 
 hasLight && turnOffLight();
 ```
-In dit geval wordt de height 180 als de height undefined is
+In dit geval zal de `turnOffLight` functie niet aangeroepen worden omdat de `hasLight` false is.
+Dit werkt ook met null en undefined:
+```ts
+const light = undefined;
+
+const TurnOffLight = () => {
+	console.log('Light is turned off');
+};
+
+light && turnOffLight();
+```
+
+# .! operator (non-null assertion)
+Heel 
