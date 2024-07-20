@@ -76,5 +76,5 @@ clone.name = 'Clone Berry';
 clone.address.street = '234 fakestreet'
 
 console.log(luna.address.street); // 123 Fakestreet
-console.log()
+console.log(clone.address.street); // 234 Fakestreet
 ```
