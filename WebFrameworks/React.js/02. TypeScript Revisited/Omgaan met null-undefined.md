@@ -26,3 +26,20 @@ interface Options {
 	height?: number;
 }
 ```
+
+# Optional chaining
+Stel dat we de interface iets aanpassen en de `width` en de `height` in een apart object plaatsen. Dan krijgen we de volgende situatie
+```ts
+interface Size {
+	width: number;
+	height: number;
+}
+interface Options {
+	title: string;
+	size: Size
+}
+
+let opties : Options = {
+
+}
+```
