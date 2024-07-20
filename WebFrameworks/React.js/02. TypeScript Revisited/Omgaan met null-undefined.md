@@ -69,5 +69,7 @@ let opties: Options = {
 	}
 };
 
-console.log(options.size)
+console.log(options.size.width) // Object is possibly 'undefined'
 ```
+
+Omdat we `size` optioneel hebben gemaakt bestaat er een kans dat size undefined zou zijn. Dus de typescript compiler waarschuwt ons hiervoor. Hier kunnen we een aantal dingen aan doen. Je zou expliciet kunnen kijken of options.size gelijk is aan undefined aan de hand van een if statement
