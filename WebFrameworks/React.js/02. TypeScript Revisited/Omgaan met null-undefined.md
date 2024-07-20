@@ -122,5 +122,17 @@ Heel zelden kom je in situaties terecht dat [[Typescript]] denkt dat een bepaald
 
 Bij de onderstaande code is de [[Typescript]] compilator niet in staat zelf te bepalen of text undefined is of niet. Daarom moet je achter text een uitroepteken zetten om deze error te vermijden.
 ```ts
-const d
+const duplicatie = (text?: string) => {
+	let fixString = () => {
+		if (text === null || text === undefined) {
+			text = "";
+		}
+	};
+	fixString();
+		return text!.concat(text!);
+}
+console.log(duplicatie("hello"));
 ```
+
+!! GEVAAR
+Gebruik dit alleen als je zeker bent dat het veld nooit undefined kan zijn. Anders kan je beter de  
