@@ -50,4 +50,24 @@ let opties : Options = {
 console.log(options.size.width); // 100
 ```
 
-Als we nu `size` optioneel maken zoals hiervoor geraken in de problemen. Onze compiler zal ons
+Als we nu `size` optioneel maken zoals hiervoor geraken in de problemen. Onze compiler zal ons dan de volgende foutmelding geven:
+```ts
+interface Size {
+	width: number;
+	height: number;
+}
+interface Options {
+	title: string;
+	size?: Size
+}
+
+let opties: Options = {
+	title: 'Hello World',
+	size: {
+		width: 100,
+		height: 100
+	}
+};
+
+console.log(options.size)
+```
