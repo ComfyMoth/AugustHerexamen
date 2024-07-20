@@ -118,4 +118,9 @@ light && turnOffLight();
 ```
 
 # .! operator (non-null assertion)
-Heel 
+Heel zelden kom je in situaties terecht dat [[Typescript]] denkt dat een bepaald veld **undefined** of **null** kan zijn. Als je zeker bent dat een bepaald veld nooit undefined kan zijn dan kan je ook de `!` operator gebruiken om een "Object is possibly undefined" error te vermijden.
+
+Bij de onderstaande code is de [[Typescript]] compilator niet in staat zelf te bepalen of text undefined is of niet. Daarom moet je achter text een uitroepteken zetten om deze error te vermijden.
+```ts
+const d
+```
