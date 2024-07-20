@@ -51,4 +51,12 @@ console.log(luna); // Luna Berry
 console.log(clone); // Clone Berry
 ```
 
-Het is wel belangrijk dat je weet dat je hiermee enkel objecten kan kopiëren met 1 niv
+Het is wel belangrijk dat je weet dat je hiermee enkel objecten kan kopiëren met 1 niveau diep
+```ts
+let address = { street: '123 fakestreet' };
+let luna = { name: 'Luna Berry', age 22, address: address };
+let clone = {...luna}
+
+clone.name = 'Clone Berry';
+clone.address.street = '234 fakestreet';
+```
