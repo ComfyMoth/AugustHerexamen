@@ -88,8 +88,14 @@ console.log(options.size?.height); // undefined
 ```
 en dan krijg je ook geen errors meer te zien. Als je optional chaining gebruikt dan zal de hele expressie als undefined gezien worden als een van de elementen undefined is. In dit geval is `size` undefined, dus dan zal de height hiervan ook undefined zijn.
 
-# ?? Operator (Nullish Coalescing)
+# ?? operator (Nullish Coalescing)
 Soms wil je een default waarde gebruiken als een property undefined is. Je kan dit doen met de `??` operator:
+```ts
+console.log(options.size?.height ?? 180); // 180
+```
+In dit geval wordt de height 180 als de height undefined is
+# && operator
+De `&&` operator wordt gebruikt om een expressie te evalueren als de linkerkant `true` is. Als de linkerkant niet waar is dan za
 ```ts
 const hasLight = false;
 
