@@ -38,3 +38,4 @@ Geeft een zicht over de poorten die open staan op jou PC en UDP/TCP statistieken
 ## klasses
 [[05. Netwerklaag IPv4#indeling van IPv4 adressen in klasses|Indeling van IPv4 adressen in klasses]]
 ![[Pasted image 20240720140331.png]]
+<span style="color:#c8ab83;">classful adresseren</span> = Gebruik maken van IPv4 adressen in combinatie met het standaard netmask dat bij hun klasse hoort
