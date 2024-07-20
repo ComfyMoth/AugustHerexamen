@@ -59,4 +59,9 @@ let clone = {...luna}
 
 clone.name = 'Clone Berry';
 clone.address.street = '234 fakestreet';
+
+console.log(luna.address.street); // 234 fakestreet
+console.log(clone.address.street) // 234 fakestreet
 ```
+
+Beide address velden wijzen naar hetzeflde object
