@@ -135,4 +135,4 @@ console.log(duplicatie("hello"));
 ```
 
 !! GEVAAR
-Gebruik dit alleen als je zeker bent dat het veld nooit undefined kan zijn. Anders kan je beter de  
+Gebruik dit alleen als je zeker bent dat het veld nooit undefined kan zijn. Anders kan je beter de `.?` operator gebruiken. Of zet je een default waarde aan de hand van de `??` operator
