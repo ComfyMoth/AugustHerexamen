@@ -4,6 +4,14 @@ Soms heb je objecten waarbij niet alle properties een waarde hebben. In [[Typesc
 interface Options {
 	title: string;
 	width: number;
-	height: num
+	height: number;
 }
+```
+
+Als je nu
+```ts
+let options : Options = {
+	title: 'Hello World'
+};
+// Type '(title: string;) is missing the following properties from type 'Options': width, height (2739)
 ```
