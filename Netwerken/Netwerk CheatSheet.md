@@ -36,3 +36,4 @@ Geeft een zicht over de poorten die open staan op jou PC en UDP/TCP statistieken
 
 # Netmask berekenen
 ## klasses
+[[05. Netwerklaag IPv4#indeling van IPv4 adressen in klasses|Indeling van IPv4 adressen in klasses]]
