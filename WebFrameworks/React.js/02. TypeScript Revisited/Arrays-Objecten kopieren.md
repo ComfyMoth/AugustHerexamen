@@ -24,3 +24,8 @@ newArray.push(5);
 console.log(array); // 1,2,3,4
 console.log(newArray); // 1,2,3,4,5
 ```
+
+Beide verwijzen nu naar een aparte plaats in het geheugen
+
+# Objecten kopiëren
+Het bovenstaande geldt
