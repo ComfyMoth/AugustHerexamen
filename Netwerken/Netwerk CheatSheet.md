@@ -35,3 +35,4 @@ Geeft een zicht over de poorten die open staan op jou PC en UDP/TCP statistieken
 (ip adresses are hidden for privacy)
 
 # Netmask berekenen
+## klasses
