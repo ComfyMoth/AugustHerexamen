@@ -64,4 +64,6 @@ console.log(luna.address.street); // 234 fakestreet
 console.log(clone.address.street) // 234 fakestreet
 ```
 
-Beide address velden wijzen naar hetzeflde object
+Beide address velden wijzen naar hetzelfde object
+
+Het kopiëren van objecten van meerdere niveau's diep
