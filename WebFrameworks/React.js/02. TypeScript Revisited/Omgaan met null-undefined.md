@@ -82,4 +82,10 @@ if (options.size != undefined) {
 	console.log(options.size.height);
 }
 ```
-of je kan hier optional chaining gebruiken. Je gebruikt hier ``
+of je kan hier optional chaining gebruiken. Je gebruikt hier `.?` in plaats van de `.` operator
+```ts
+console.log(options.size?.height); // undefined
+```
+en dan krijg je ook geen errors meer te zien. Als je optional chaining gebruikt dan zal de hele expressie als undefined gezien worden als een van de elementen undefined is. In dit geval is `size` undefined, dus dan zal de height hiervan ook undefined zijn.
+
+# ?? Operator (Nullish Coales)
