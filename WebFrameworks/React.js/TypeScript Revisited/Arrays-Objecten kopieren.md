@@ -14,4 +14,13 @@ newArray.push(5);
 console.log(array); // 1,2,3,4,5
 console.log(newArray); // 1,2,3,4,5
 ```
-Als je een kopie van een array moet maken dan ga je gebruik moeten maken van de spread syntax (drie puntjes)
+
+Als je een kopie van een array moet maken dan ga je gebruik moeten maken van de <span style="color:#c8ab83;">spread</span> syntax (drie puntjes)
+```ts
+let array : number[] = [1,2,3,4]
+let newArray : number[] = [...array];
+
+newArray.push(5);
+console.log(array); // 1,2,3,4
+console.log(newArray); // 1,2,3,4,5
+```
