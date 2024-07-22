@@ -20,5 +20,13 @@ let arr: string[] = ['Luna', 'Berry'];
 
 let [firstName, lastName] = arr;
 
-console.lo
+console.log(firstName); // Luna
+console.log(lastName); // Berry
+```
+
+Dit concept noemen we **Array destructuring**
+Wil je bepaalde elementen overslagen dan kan je dit doen op de volgende manier:
+```ts
+let arr: string[] = ['Luna', 'Rosti', 'The Cutest', 'Of'];
+
 ```
