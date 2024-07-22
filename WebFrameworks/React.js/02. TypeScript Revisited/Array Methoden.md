@@ -67,5 +67,32 @@ Dit lijkt een beetje complex, dus even een voorbeeld: Stel dat je een lijst hebt
 ```ts
 let numbers : number[] = [1,2,3,4];
 
-console.log(numbers.reduce((sum, current)=>sum+current));
+console.log(numbers.reduce((sum, current)=>sum+current)); // 10
+```
+
+Een voorbeeld waarvoor we reduce zouden kunnen gebruiken is het volgende: Stel dat we een lijst van objecten hebben met een id, en we willen een nieuw element toevoegen. dan moeten we eerst op zoek gaan naar de hoogste id in de lijst objecten. We kunnen dit doen aan de hand van reduce:
+```ts
+interface Book {
+	id: number;
+	name: string;
+}
+
+let books : Book[] = [
+	{  
+		id: 0,  
+		name: "Game of thrones"  
+	},  
+	{  
+		id: 1,  
+		name: "Hitchhikers guide to the galaxy"  
+	},  
+	{  
+		id: 2,  
+	name: "Witcher"  
+	},  
+	{  
+	id: 5,  
+	name: "The expanse"  
+	}
+	]
 ```
