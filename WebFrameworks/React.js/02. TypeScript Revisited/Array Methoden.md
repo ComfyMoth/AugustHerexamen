@@ -88,11 +88,14 @@ let books : Book[] = [
 	},  
 	{  
 		id: 2,  
-	name: "Witcher"  
+		name: "Witcher"  
 	},  
 	{  
-	id: 5,  
-	name: "The expanse"  
+		id: 5,  
+		name: "The expanse"  
 	}
-	]
+];
+
+console.log(books.reduce((maxId, current) => (current.id > maxId ? current.id : maxId), 0)); // 5
 ```
+Je merkt hier op dat we hier een parameter 0 meegeven aan de reduce. Dat doen we omdat we hier de lijst niet willen reduceren tot een book object maar naar een getal. Daarom moeten we de start w
