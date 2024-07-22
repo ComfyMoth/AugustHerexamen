@@ -53,7 +53,7 @@ interface Options {
 	height?: number;
 }
 
-let opties: Options = {
+let options: Options = {
 	title: "Menu"
 	width: 100,
 	height: 200
@@ -65,7 +65,7 @@ let height = options.height;
 ```
 te doen kan je dit veel compacter schrijven aan de hand van **object destructuring**:
 ```ts
-let opties : Options = {
+let options : Options = {
 title: "Menu",
 width: 100,
 height²: 200
@@ -79,4 +79,8 @@ let {width,title,height} = options;
 ```
 mag dus ook
 
-## Res
+## Rest operator
+Uiteraard moet je hier niet alle keys opgeven en kan je ook maar een deel van de keys opgeven en de rest negeren:
+```ts
+let {title} = options;
+```
