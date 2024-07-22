@@ -57,7 +57,19 @@ let opties: Options = {
 	title: "Menu"
 	width: 100,
 	height: 200
-}
+};
 
-let 
+let title = options.title;
+let width = options.width;
+let height = options.height;
+```
+te doen kan je dit veel compacter schrijven aan de hand van **object destructuring**:
+```ts
+let opties : Options = {
+title: "Menu",
+width: 100,
+height²: 200
+};
+
+let {title, width, height} = options;
 ```
