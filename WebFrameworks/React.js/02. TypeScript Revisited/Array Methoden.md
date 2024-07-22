@@ -119,4 +119,11 @@ array.slice(begin [,end]);
 - **begin**: de zero based index van waar de extractie moet starten
 - **end**: de zero based index van waar de extractie moet eindigen
 
-Deze functie geeft een **nieuwe array** terug met daarin een dee
+Deze functie geeft een **nieuwe array** terug met daarin een deel van de array. De originele array wordt hier **NIET aangepast**
+```ts
+let numbers: number[] = [0,1,2,3,4,5];
+
+console.log(numbers.slice(0,2)); // [0,1]
+console.log(numbers.slice(2,4)); // [2,3]
+console.log(numbers.slice(4,6)); // [4,5]
+```
