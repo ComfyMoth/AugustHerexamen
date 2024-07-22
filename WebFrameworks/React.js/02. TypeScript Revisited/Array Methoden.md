@@ -108,3 +108,15 @@ console.log(characters.find((age) => age.age == 30));
 console.log(characters.find((age) => age.age == 0));
 // undefined
 ```
+
+# Slice
+Array.slice() is een functie die gebruikt wordt om een  deel van een array te kopiëren (extracten) in een nieuwe array. // syntax:
+```ts
+array.slice(begin [,end]);
+```
+
+**parameters**: Deze methode aanvaard twee parameters
+- **begin**: de zero based index van waar de extractie moet starten
+- **end**: de zero based index van waar de extractie moet eindigen
+
+Deze functie geeft een **nieuwe array** terug met daarin een dee
