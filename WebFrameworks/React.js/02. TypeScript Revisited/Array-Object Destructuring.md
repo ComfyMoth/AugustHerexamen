@@ -93,5 +93,15 @@ let options : Options = {
 	width: 100
 };
 
+// title = property named title
+// rest = object with the rest of properties
 
+let {title, ...rest} = options;
+
+// now title = "Menu", rest = {height: 200, width: 100}
+alert(rest.height); // 200
+alert(rest.width); // 100
 ```
+
+## Hernoemen van keys
+Willen we hier niet dezelfde namen gebruiken als de keys van het object is het ook mogeli
