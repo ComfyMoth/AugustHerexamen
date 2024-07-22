@@ -36,11 +36,29 @@ interface Character {
 
 let characters = [
 	{
-		name: Jinx,
-	age: 16
+		name: "Jinx",
+		age: 16
 	},
 	{
-		name
+		name: "Caitlyn",
+		age: 24
 	},
-]
+	{
+		name: "Jayce",
+		age: 30
+	},
+	{
+		name: "Victor",
+		age: 30
+	},
+	{
+		name: "Heimerdinger",
+		age: 307
+	}
+];
+
+console.log(characters.filter((age) => age.age >= 30);
 ```
+
+# Reduce
+De reduce() methode herleid een array naar een 
