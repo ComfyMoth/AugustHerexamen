@@ -26,5 +26,13 @@ let functionA = (functionB: () => void) => {
 
 Een voorbeeld van zo'n callback functie kan je hieronder vinden
 ```ts
-let sum = (a: number, b: number)
+let sum = (a: number, b: number, callback: (sum: number) => void) => {
+	callback(a + b);
+};
+
+let printNumber = (number: number) => {
+	console.log(number);
+};
+
+sum(1, 2, printNumber);
 ```
