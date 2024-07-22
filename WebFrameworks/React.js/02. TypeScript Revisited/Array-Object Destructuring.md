@@ -139,5 +139,20 @@ console.log(height); // undefined
 
 Wil je dit voorkomen kan je dit doen aan de hand van default waarden op te geven
 ```ts
-let options : Opt
+let options : Options = {
+	title: 'Menu',
+};
+
+let { title, width = 100, height = 200 } = options;
+
+console.log(width); // 100
+console.log(height); // 200
+```
+
+## Destructuring in functie parameters
+Je kan ook rechtstreeks in de functie parameters het object destructuren. Stel dat je de volgende functie hebt:
+```ts
+let options : Options = {
+	title: "Menu"
+}
 ```
