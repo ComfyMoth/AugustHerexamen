@@ -167,4 +167,18 @@ const showOptions = (options: Options) => {
 showOptions(options);
 ```
 
-Je ziet hier dat we telkens de dot notatie moeten gebruiken voor title, width en height uit het `options` object moeten halen. Je zou uiteraard dit al kunnen vereenvoudigen door de `showOptions` functie als volgt te sch
+Je ziet hier dat we telkens de dot notatie moeten gebruiken voor title, width en height uit het `options` object moeten halen. Je zou uiteraard dit al kunnen vereenvoudigen door de `showOptions` functie als volgt te schrijven:
+```ts
+const showOptions = (options: Options) => {
+	let {title, width, height} = options;
+	console.log(title);
+	console.log(width);
+	console.log(height);
+}
+showOoptions(options);
+```
+
+Maar je kan dit zelfs nog korter schrijven door rechtstreeks in de functie parameters de destructuring operator te gebruiken:
+```ts
+const showOptions = ()
+```
