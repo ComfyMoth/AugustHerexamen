@@ -45,3 +45,19 @@ Console.log(rest); // ["Consul", "of the Roman Republic"]
 De `rest` variabele bevat dan de array van de laatste twee elementen.
 
 # Object Destructuring
+Hetzelfde concept kan je ook gebruiken bij objecten, in plaats van
+```ts
+interface Options {
+	title: string;
+	width?: number;
+	height?: number;
+}
+
+let opties: Options = {
+	title: "Menu"
+	width: 100,
+	height: 200
+}
+
+let 
+```
