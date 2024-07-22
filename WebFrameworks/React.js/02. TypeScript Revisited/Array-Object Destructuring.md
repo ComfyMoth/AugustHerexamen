@@ -73,3 +73,10 @@ height²: 200
 
 let {title, width, height} = options;
 ```
+De volgorde maakt hier ook niet uit zoland de namen maar overeenkomen met de keys van het object
+```ts
+let {width,title,height} = options;
+```
+mag dus ook
+
+## Res
