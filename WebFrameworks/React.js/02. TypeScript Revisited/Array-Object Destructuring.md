@@ -153,6 +153,18 @@ console.log(height); // 200
 Je kan ook rechtstreeks in de functie parameters het object destructuren. Stel dat je de volgende functie hebt:
 ```ts
 let options : Options = {
-	title: "Menu"
+	title: "Menu",
+	width: 100,
+	height: 200
+};
+
+const showOptions = (options: Options) => {
+	console.log(options.title);
+	console.log(options.width);
+	console.log(options.height)
 }
+
+showOptions(options);
 ```
+
+Je ziet hier dat we telkens de dot notatie moeten gebruiken voor title, width en height uit het `options` object moeten halen. Je zou uiteraard dit al kunnen vereenvoudigen door de `showOptions` functie als volgt te sch
