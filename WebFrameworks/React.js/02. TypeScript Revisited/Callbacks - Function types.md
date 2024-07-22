@@ -1,0 +1,1 @@
+Een callback is een functie (functie A) die wordt meegegeven als parameter van een andere functie (functie B). Deze 

@@ -214,5 +214,10 @@ interface Params {
 	a: number, b: number, c: number, d: string, e: number, f: number, g: boolean
 }
 
-const f ({a,b,c,d,e,f,g})
+const f ({a,b,c,d,e,f,g}: Params) => {
+	// do something
+}
+
+f({a:0,b:2,c:4,d:"test",e:6,f:8,g:true});
 ```
+Zo zie je exact welke parameters bij welke naam hoort
