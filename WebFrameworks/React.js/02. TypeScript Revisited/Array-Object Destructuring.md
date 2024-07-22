@@ -38,5 +38,10 @@ Wil je vb. alleen de eerste twee waarden in een variabele en de rest in een nieu
 let arr: string[] = ['Julius', 'Caesar', 'Consul', 'of the Roman Republic'];
 let [firstName, lastName, ...rest] = arr;
 
-console.log
+console.log(firstName); // Julius
+console.log(lastName); // Caesar
+Console.log(rest); // ["Consul", "of the Roman Republic"]
 ```
+De `rest` variabele bevat dan de array van de laatste twee elementen.
+
+# Object Destructuring
