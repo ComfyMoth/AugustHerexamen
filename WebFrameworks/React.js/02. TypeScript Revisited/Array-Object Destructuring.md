@@ -123,3 +123,21 @@ console.log(title); // Menu
 console.log(w); // 100
 console.log(h); // 200
 ```
+
+## Default waarden
+Als je naar de interface van `Options` kijkt dan zie je dat de width en de height optioneel zijn. Als je deze leeg laat dan zijn `width` en `height` undefined bij het destructuren:
+```ts
+let options: Options = {
+	title: 'Menu',
+};
+
+let {title, width, height} = options;
+
+console.log(width); //undefined
+console.log(height); // undefined
+```
+
+Wil je dit voorkomen kan je dit doen aan de hand van default waarden op te geven
+```ts
+let options : Opt
+```
