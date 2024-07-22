@@ -98,4 +98,13 @@ let books : Book[] = [
 
 console.log(books.reduce((maxId, current) => (current.id > maxId ? current.id : maxId), 0)); // 5
 ```
-Je merkt hier op dat we hier een parameter 0 meegeven aan de reduce. Dat doen we omdat we hier de lijst niet willen reduceren tot een book object maar naar een getal. Daarom moeten we de start w
+Je merkt hier op dat we hier een parameter 0 meegeven aan de reduce. Dat doen we omdat we hier de lijst niet willen reduceren tot een book object maar naar een getal. Daarom moeten we de start waarde meegeven.
+
+# Find
+De find() methode geeft de waarde terug van het eerste element van de array dat voldoet aan de meegegeven callback functie. Als er geen waarde voldoet aan de callback functie geeft deze undefined terug
+```ts
+console.log(characters.find((age) => age.age == 30));
+// name {name : "Jayce", age: 30}
+console.log(characters.find((age) => age.age == 0));
+// undefined
+```
