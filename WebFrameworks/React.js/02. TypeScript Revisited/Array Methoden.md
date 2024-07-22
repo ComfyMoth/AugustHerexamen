@@ -61,4 +61,11 @@ console.log(characters.filter((age) => age.age >= 30);
 ```
 
 # Reduce
-De reduce() methode herleid een array naar een 
+De reduce() methode herleid een array naar een enkele waarde aan de hand van de meegegeven reducer functie. De return value van deze reducer functie wordt doorgegeven als argument aan de volgende reducer functie.
+
+Dit lijkt een beetje complex, dus even een voorbeeld: Stel dat je een lijst hebt van een aantal getallen: 1,2,3,4 dan kan je deze lijst herleiden (reduceren) tot de som van dit getal. De functie die het volgende getal optelt bij het vorige noemen we dan de reducer
+```ts
+let numbers : number[] = [1,2,3,4];
+
+console.log(numbers.reduce((sum, current)=>sum+current));
+```
