@@ -10,4 +10,16 @@ let newArray: number[] = numbers.map(number => number * 2);
 console.log(newArray);
 ```
 
-Als we dit met een for lus zouden wil
+Als we dit met een for lus zouden willen doen
+```ts
+let numbers: number[] = [1,2,3,4,5];
+let newArray: number[] = [];
+for (let number of numbers) {
+	newArray.push(number*2);
+}
+console.log(newArray);
+```
+We verkiezen altijd in react.js voor de oplossing met de map functie.
+
+# Filter
+De filter
