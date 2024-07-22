@@ -11,6 +11,20 @@ let functionA = (functionB: Callback) => {
 }
 
 let functionB: Callback = () => {
-	console
+	console.log("Function B executed")
 }
+
+functionA(functionB);
+```
+
+Wil je geen interface aanmaken kan je ook gebruik maken van [[Typescript]] types rechtstreeks in de functie signature
+```ts
+let functionA = (functionB: () => void) => {
+	functionB();
+}
+```
+
+Een voorbeeld van zo'n callback functie kan je hieronder vinden
+```ts
+let sum = (a: number, b: number)
 ```
