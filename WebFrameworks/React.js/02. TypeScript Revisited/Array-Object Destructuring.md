@@ -180,5 +180,8 @@ showOoptions(options);
 
 Maar je kan dit zelfs nog korter schrijven door rechtstreeks in de functie parameters de destructuring operator te gebruiken:
 ```ts
-const showOptions = ()
+const showOptions = ({title, width, height}: Options) => {
+	console.log(title);
+	console.log(width);
+}
 ```
