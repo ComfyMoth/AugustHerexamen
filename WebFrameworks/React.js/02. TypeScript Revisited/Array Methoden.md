@@ -22,4 +22,25 @@ console.log(newArray);
 We verkiezen altijd in react.js voor de oplossing met de map functie.
 
 # Filter
-De filter
+De filter() functie wordt heel vaak gebruikt bij het verbergen van bepaalde objecten in lijsten. Soms wil je niet de hele lijst van objecten te zien krijgen, maar een klein deel ervan dat voldoet aan een bepaalde filter.
+```ts
+characters.filter(age => agea.age >= 30);
+```
+
+Geeft alleen de characters terug waarvan de leeftijd groter of gelijk is aan 30.
+```ts
+interface Character {
+	name: string;
+	age: number;
+}
+
+let characters = [
+	{
+		name: Jinx,
+	age: 16
+	},
+	{
+		name
+	},
+]
+```
