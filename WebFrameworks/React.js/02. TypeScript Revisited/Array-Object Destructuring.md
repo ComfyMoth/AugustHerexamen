@@ -201,5 +201,18 @@ als `width` of `height` dan niet zijn ingegeven dan zullen hier de default waard
 ## Function parameters opschonen
 Het werken met object destructuring in functie parameters kan een manier zijn om functies met veel parameters te vereenvoudigen
 ```ts
-const f = (a: number, b)
+const f = (a: number, b: number, c: number, d: string, e: number, f: number, g: boolean) => {
+	// do something
+}
+
+f(0,2,4, "test", .... euh ... ik weet het niet meer)
+```
+
+Dit kan je ook herschrijven door alle parameters in een apart object in te pakken
+```ts
+interface Params {
+	a: number, b: number, c: number, d: string, e: number, f: number, g: boolean
+}
+
+const f ({a,b,c,d,e,f,g})
 ```
