@@ -84,3 +84,14 @@ Uiteraard moet je hier niet alle keys opgeven en kan je ook maar een deel van de
 ```ts
 let {title} = options;
 ```
+
+Je kan hier net zoals bij arrays ook gebruik maken van de `...` notatie (of rest operator)
+```ts
+let options : Options = {
+	title: "Menu",
+	height: 200,
+	width: 100
+};
+
+
+```
