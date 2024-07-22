@@ -189,5 +189,17 @@ const showOptions = ({title, width, height}: Options) => {
 
 Kort en bondig! Je kan dit zelfs combineren met default waarden
 ```ts
-const showOptions 
+const showOptions = ({title, width = 200, height = 100}: Options) => {
+	console.log(title);
+	console.log(width);
+	console.log(height)
+}
+```
+
+als `width` of `height` dan niet zijn ingegeven dan zullen hier de default waarden gebruikt worden4
+
+## Function parameters opschonen
+Het werken met object destructuring in functie parameters kan een manier zijn om functies met veel parameters te vereenvoudigen
+```ts
+const f = (a: number, b)
 ```
