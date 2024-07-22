@@ -104,4 +104,22 @@ alert(rest.width); // 100
 ```
 
 ## Hernoemen van keys
-Willen we hier niet dezelfde namen gebruiken als de keys van het object is het ook mogeli
+Willen we hier niet dezelfde namen gebruiken als de keys van het object is het ook mogelijk om deze een andere naam te geven:
+```ts
+let options : Options = {
+	title: "Menu",
+	width: 100,
+	height: 200
+};
+
+// { sourceProperty: targetVariabele }
+let {width: w, height: h, title} = options;
+
+// width -> w
+// height -> h
+// title -> title
+
+console.log(title); // Menu
+console.log(w); // 100
+console.log(h); // 200
+```
