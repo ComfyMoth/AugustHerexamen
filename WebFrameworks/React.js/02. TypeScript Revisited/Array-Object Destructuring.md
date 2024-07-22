@@ -5,4 +5,20 @@ Zoals je weet kan je aan de hand van de array index bepaalde elementen aanspreke
 ```ts
 // een array die een voornaam en achternaam bevat
 let arr : string[] = ['Luna', 'Berry'];
+
+let firstName = arr[0];
+let lastName = arr[1];
+
+console.log(firstName); // Luna
+console.log(lastName); // Berry
+```
+
+Dit kan je ook schrijven als:
+```ts
+// een array die een voornaam en achternaam bevat
+let arr: string[] = ['Luna', 'Berry'];
+
+let [firstName, lastName] = arr;
+
+console.lo
 ```
