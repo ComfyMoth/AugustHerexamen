@@ -183,5 +183,11 @@ Maar je kan dit zelfs nog korter schrijven door rechtstreeks in de functie param
 const showOptions = ({title, width, height}: Options) => {
 	console.log(title);
 	console.log(width);
+	console.log(height);
 }
+```
+
+Kort en bondig! Je kan dit zelfs combineren met default waarden
+```ts
+const showOptions 
 ```
