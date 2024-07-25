@@ -36,4 +36,11 @@ De testomgeving is een geheel van software en hardware waarop de testen kunnen w
 In deze fase wordt het proces van het uitvoeren van de code en het vergelijken van de verwachte en actuele resultaten uitgevoerd. Belangrijk is het registreren van de resultaten (de status van een test wordt aangeduid met "Pass-geslaagd", "Fail-gefaald", "Blocked-geblokkeerd", "Not Run-niet uitgevoerd", ...) en dat voor niet geslaagde testen een defecten rapport wordt opgesteld waarin beschreven wordt wat er precies mis loopt.
 
 ### 2.2.6 Het afsluiten van de test cyclus
-Dit is de vergelijking van de testresultaten ten opzichte van de kwaliteitscriteria en het eventueel uiteindelijk vrijgeven van de software. Het resultaat van deze fase is een Finaal defecten rapport. Verder worden de test cases herbekeken 
+Dit is de vergelijking van de testresultaten ten opzichte van de kwaliteitscriteria en het eventueel uiteindelijk vrijgeven van de software. Het resultaat van deze fase is een Finaal defecten rapport. Verder worden de test cases herbekeken, worden de test cases en de test data schoongemaakt en wordt ook het testproces op zich bekeken.
+
+## 2.3 Wat is een bug? Waarom komen bugs voor?
+Een software bug is een fout in een computer programma of systeem die de oorzaak is dat het programma of systeem een onverwacht of onjuist resultaat geeft of onbedoeld gedrag uitvoert.
+
+De bronnen van bugs zijn divers:
+1. Niet duidelijke specificaties, vaak door miscommunicatie of een klant die nog niet volledig weet wat de software moet en niet moet doen.
+2. Constant veranderende specificaties ook gekend als het "moving target probl"
