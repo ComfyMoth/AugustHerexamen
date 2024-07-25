@@ -43,4 +43,13 @@ Een software bug is een fout in een computer programma of systeem die de oorzaak
 
 De bronnen van bugs zijn divers:
 1. Niet duidelijke specificaties, vaak door miscommunicatie of een klant die nog niet volledig weet wat de software moet en niet moet doen.
-2. Constant veranderende specificaties ook gekend als het "moving target probl"
+2. Constant veranderende specificaties ook gekend als het "moving target probleem"
+3. Het verbeteren van een bug die andere bugs introduceert
+4. Design en redesign van vb. de user interface
+5. Fundamentele problemen eigen aan software design en architectuur
+6. Herschikken van resources, herwerken of weglaten van stukken code
+7. Veranderingen in hard-/software (belangrijk in langdurende projecten - releaseverhogingen van gebruikte software)
+8. Het naderen van de deadline(snel, snel, snel, ...)
+9. Complexiteit van het bug-tracking proces
+
+## 2.4 Bug life cycle
