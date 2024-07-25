@@ -29,4 +29,8 @@ In deze stap wordt het test plan (document) opgesteld. In dit plan vind je onder
 ### 2.2.3 Test case ontwikkeling
 In deze stap wordt de test cases en test scripts ontwikkeld en gevalideerd. Ook de test data wordt opgezet
 
-### 
+### 2.2.4 Opzetten van de testomgeving
+De testomgeving is een geheel van software en hardware waarop de testen kunnen worden uitgevoerd. De omgeving bepaalt mee onder welke voorwaarden de testen worden uitgevoerd
+
+### 2.2.5
+In deze fase wordt het proces van het uitvoeren van de code en het vergelijken van de verwachte en actuele resultaten uitgevoerd. Belangrijk is het registreren van de resultaten (de status van een test wordt aangeduid met "Pass-geslaagd", "Fail-gefaald", "Blocked-geblokkeerd")
