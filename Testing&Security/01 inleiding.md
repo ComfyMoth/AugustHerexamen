@@ -55,3 +55,9 @@ De bronnen van bugs zijn divers:
 ## 2.4 Bug life cycle
 De bug life cycle start met een onbedoelde gemaakte fout en eindigt wanneer deze fout is opgelost. Deze life cycle bestaat uit een aantal fasen / statussen:
 ![](https://apwt.gitbook.io/~gitbook/image?url=https%3A%2F%2F4058530821-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252Fg-pro-software-testing%252F-MHfjgKptfnQJ_1d1SgM%252F-MHfk9GzxUV8yHo3RmAy%252F5.png%3Fgeneration%3D1600609364222818%26alt%3Dmedia&width=400&dpr=2&quality=100&sign=fcc66f1b&sv=1)
+
+![](https://apwt.gitbook.io/~gitbook/image?url=https%3A%2F%2F4058530821-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252Fg-pro-software-testing%252F-MHfjgKptfnQJ_1d1SgM%252F-MHfk9H-GZTniSIErqe0%252F6.png%3Fgeneration%3D1600609364259378%26alt%3Dmedia&width=768&dpr=4&quality=100&sign=43ce35bd&sv=1)
+
+## 2.5 De kost van het oplossen van bugs
+De kost voor het oplossen van bugs stijgt exponentieel; De verklaring hiervoor is:
+- Het is veel eenvoudiger om fouten te vinden wanneer er nog ontwikkeld wordt. De ontwikkelaar "zit nog in de code". Wanneer de software is opgeleverd en de ontwikkelaar werk
