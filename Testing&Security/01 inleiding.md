@@ -14,3 +14,11 @@ Afbeelding 2 is een afbeelding van de waterval model, waar elke fase volledig wo
 Afbeelding 3 is een afbeelding van een iteratief model, waar dezelfde fasen verschillende keren na elkaar worden uitgevoerd. D
 
 Wat wordt afgebeeld strookt ook niet met het concept dat vanaf dag 1 'getest' worden. De fase testen hierboven handelt over het testen van code. hier ligt ook onze focus.
+
+## 2.2 Software testing life cycle
+![](https://apwt.gitbook.io/~gitbook/image?url=https%3A%2F%2F4058530821-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252Fg-pro-software-testing%252F-MHfjgKptfnQJ_1d1SgM%252F-MHfk9Gy8t3SCitj_a4F%252F4.png%3Fgeneration%3D1600609364178067%26alt%3Dmedia&width=400&dpr=2&quality=100&sign=548446f8&sv=1)
+Hier volgt een korte beschrijving van de verschillende fasen:
+### 2.2.1 Specificatie analyse
+In deze stap zullen test teams de specificaties onder de loep nemen en de testbare behoeften identificeren.
+Deze kunnen zowel functioneel als niet-functioneel zijn. 
+In deze fasen wordt ook de prioriteit bepaald en wordt de testomgeving vastgelegd
