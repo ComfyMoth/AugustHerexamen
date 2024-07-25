@@ -61,4 +61,9 @@ De bug life cycle start met een onbedoelde gemaakte fout en eindigt wanneer deze
 ## 2.5 De kost van het oplossen van bugs
 De kost voor het oplossen van bugs stijgt exponentieel; De verklaring hiervoor is:
 - Het is veel eenvoudiger om fouten te vinden wanneer er nog ontwikkeld wordt. De ontwikkelaar "zit nog in de code". Wanneer de software is opgeleverd en de ontwikkelaar werkt aan andere software is dat niet meer zo. Een fout die door de ontwikkelaar wordt gevonden en opgelost heeft een beperkte kost
-- Wanneer men begint aan het formele testen wordt de kost groter. Het is de tester die de fout vindt en de fout beschrijft, het testproces wordt doorlopen, rapporten moeten gemaakt worden, tijd
+- Wanneer men begint aan het formele testen wordt de kost groter. Het is de tester die de fout vindt en de fout beschrijft, het testproces wordt doorlopen, rapporten moeten gemaakt worden, tijdsverlies, ...
+- een fout die opduikt tijdens operatie kan variëren van wat hinedr tot falen van het systeem. Afhankelijk van het systeem kan dat leiden tot catastrofes.
+![](https://apwt.gitbook.io/~gitbook/image?url=https%3A%2F%2F4058530821-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252Fg-pro-software-testing%252F-MHfjgKptfnQJ_1d1SgM%252F-MHfk9H0ZiPUFB9G7a2j%252F7.png%3Fgeneration%3D1600609364176679%26alt%3Dmedia&width=400&dpr=2&quality=100&sign=510d692a&sv=1)
+
+## 2.6 Wanneer kan je stoppen met testen?
+Nooit :3
