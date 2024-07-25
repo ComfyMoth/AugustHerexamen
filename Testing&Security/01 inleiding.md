@@ -21,4 +21,12 @@ Hier volgt een korte beschrijving van de verschillende fasen:
 ### 2.2.1 Specificatie analyse
 In deze stap zullen test teams de specificaties onder de loep nemen en de testbare behoeften identificeren.
 Deze kunnen zowel functioneel als niet-functioneel zijn. 
-In deze fasen wordt ook de prioriteit bepaald en wordt de testomgeving vastgelegd
+In deze fasen wordt ook de prioriteit bepaald en wordt de testomgeving vastgelegd.
+
+### 2.2.2 Test planning
+In deze stap wordt het test plan (document) opgesteld. In dit plan vind je onder meer welke soorten testen (zie later) zullen worden uitgevoerd, wordt beschreven wat de scope en het doel is van de software, de te gebruiken testtools gekozen, de rapportering vastgelegd, ...
+
+### 2.2.3 Test case ontwikkeling
+In deze stap wordt de test cases en test scripts ontwikkeld en gevalideerd. Ook de test data wordt opgezet
+
+### 
