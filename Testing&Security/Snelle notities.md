@@ -14,6 +14,7 @@ MS.Test Project
 NUnit.Test.Project
 ![[Pasted image 20240822140907.png]]
 
-## Spe
+## Gherkin / SpecFlow
+![[Pasted image 20240822141209.png]]
 
-data/2.5/
+data/2.5
