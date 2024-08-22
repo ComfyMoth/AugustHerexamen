@@ -11,3 +11,9 @@ MS.Test Project
 ![[Pasted image 20240822140639.png]]
 
 ## Selenium / NUnit
+NUnit.Test.Project
+![[Pasted image 20240822140907.png]]
+
+## Spe
+
+data/2.5/
